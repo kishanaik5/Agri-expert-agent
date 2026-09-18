@@ -1,0 +1,7 @@
+uid,created_at,updated_at,deleted_at,factor,weight
+weight-zone,2026-08-10 09:47:53.589862+00:00,,,ZONE,2.0
+weight-season,2026-08-10 09:47:53.589862+00:00,,,SEASON,2.0
+weight-water,2026-08-10 09:47:53.589862+00:00,,,WATER,2.0
+weight-soil,2026-08-10 09:47:53.589862+00:00,,,SOIL,1.5
+weight-budget,2026-08-10 09:47:53.589862+00:00,,,BUDGET,1.5
+weight-rotation,2026-08-10 09:47:53.589862+00:00,,,ROTATION,1.0

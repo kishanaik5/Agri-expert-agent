@@ -1,0 +1,1563 @@
+[
+  {
+    "uid": "recommendation_history_a0f57681-0053-4b6a-a1fd-bca0427be3a5",
+    "created_at": "2026-08-17T10:49:15.332923+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "upid": "users_308e18ea-c68c-49a4-81f0-7007d4430ee4",
+    "subscription_id": "sub-test-001",
+    "lat": 28.6139,
+    "lon": 77.209,
+    "season": "KHARIF",
+    "water_methods": [
+      "SURFACE",
+      "RAINFED"
+    ],
+    "budget_bucket": "B3",
+    "previous_crop_code": null,
+    "was_fallow": true,
+    "top_n": 3,
+    "lang": "hn",
+    "zone_filter_applied": true,
+    "soil_class_detected": 0,
+    "soil_texture_label": "Unclassified / No Data / Road / Water / Buildings",
+    "results": [
+      {
+        "crop": "Rice (paddy)",
+        "translated_name": "धान / चावल",
+        "family": "Cereal",
+        "horizon": "SEASONAL",
+        "total": 16.0,
+        "max_total": 17.0,
+        "suitability_pct": 94.1,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 1,
+            "weight": 1.0,
+            "weighted": 1.0
+          }
+        ]
+      },
+      {
+        "crop": "Green gram",
+        "translated_name": "मूंग",
+        "family": "Pulse",
+        "horizon": "SEASONAL",
+        "total": 16.0,
+        "max_total": 17.0,
+        "suitability_pct": 94.1,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 1,
+            "weight": 1.0,
+            "weighted": 1.0
+          }
+        ]
+      },
+      {
+        "crop": "Cotton",
+        "translated_name": "कपास",
+        "family": "Fibre",
+        "horizon": "SEASONAL",
+        "total": 16.0,
+        "max_total": 17.0,
+        "suitability_pct": 94.1,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 1,
+            "weight": 1.0,
+            "weighted": 1.0
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Agro-climatic zone resolved to Zone 6 (from pincode 110011).",
+      "Soil texture: no data at these coordinates (road/water/urban). Soil factor skipped."
+    ]
+  },
+  {
+    "uid": "recommendation_history_7a0be7e2-07bc-4081-9ef3-90be9beb15dc",
+    "created_at": "2026-08-17T10:49:19.120134+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "upid": "users_308e18ea-c68c-49a4-81f0-7007d4430ee4",
+    "subscription_id": "sub-test-001",
+    "lat": 12.52,
+    "lon": 76.89,
+    "season": "RABI",
+    "water_methods": [
+      "DRIP",
+      "SURFACE"
+    ],
+    "budget_bucket": "B2",
+    "previous_crop_code": "Rice (paddy)",
+    "was_fallow": false,
+    "top_n": 5,
+    "lang": "kn",
+    "zone_filter_applied": true,
+    "soil_class_detected": 0,
+    "soil_texture_label": "Unclassified / No Data / Road / Water / Buildings",
+    "results": [
+      {
+        "crop": "Carrot",
+        "translated_name": "ಕ್ಯಾರೆಟ್",
+        "family": "Vegetable",
+        "horizon": "SEASONAL",
+        "total": 17.0,
+        "max_total": 17.0,
+        "suitability_pct": 100.0,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 2,
+            "weight": 1.0,
+            "weighted": 2.0
+          }
+        ]
+      },
+      {
+        "crop": "Black gram",
+        "translated_name": "ಉದ್ದು",
+        "family": "Pulse",
+        "horizon": "SEASONAL",
+        "total": 17.0,
+        "max_total": 17.0,
+        "suitability_pct": 100.0,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 2,
+            "weight": 1.0,
+            "weighted": 2.0
+          }
+        ]
+      },
+      {
+        "crop": "Sorghum",
+        "translated_name": "ಜೋಳ",
+        "family": "Millet",
+        "horizon": "SEASONAL",
+        "total": 17.0,
+        "max_total": 17.0,
+        "suitability_pct": 100.0,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 2,
+            "weight": 1.0,
+            "weighted": 2.0
+          }
+        ]
+      },
+      {
+        "crop": "Chickpea",
+        "translated_name": "ಕಡಲೆ",
+        "family": "Pulse",
+        "horizon": "SEASONAL",
+        "total": 17.0,
+        "max_total": 17.0,
+        "suitability_pct": 100.0,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 2,
+            "weight": 1.0,
+            "weighted": 2.0
+          }
+        ]
+      },
+      {
+        "crop": "Groundnut",
+        "translated_name": "ಕಡಲೆಕಾಯಿ / ಶೇಂಗಾ",
+        "family": "Oilseed",
+        "horizon": "SEASONAL",
+        "total": 17.0,
+        "max_total": 17.0,
+        "suitability_pct": 100.0,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 2,
+            "weight": 1.0,
+            "weighted": 2.0
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Agro-climatic zone resolved to Zone 10 (from pincode 571401).",
+      "Soil texture: no data at these coordinates (road/water/urban). Soil factor skipped."
+    ]
+  },
+  {
+    "uid": "recommendation_history_72e9fa74-35e9-4007-9cb8-9f752f16177e",
+    "created_at": "2026-08-17T18:54:45.583856+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "upid": "users_308e18ea-c68c-49a4-81f0-7007d4430ee4",
+    "subscription_id": "sub-test-001",
+    "lat": 28.6139,
+    "lon": 77.209,
+    "season": "KHARIF",
+    "water_methods": [
+      "SURFACE",
+      "RAINFED"
+    ],
+    "budget_bucket": "B3",
+    "previous_crop_code": null,
+    "was_fallow": true,
+    "top_n": 3,
+    "lang": "hn",
+    "zone_filter_applied": true,
+    "soil_class_detected": 0,
+    "soil_texture_label": "Unclassified / No Data / Road / Water / Buildings",
+    "results": [
+      {
+        "crop": "Green gram",
+        "translated_name": "मूंग",
+        "family": "Pulse",
+        "horizon": "SEASONAL",
+        "total": 16.0,
+        "max_total": 17.0,
+        "suitability_pct": 94.1,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 1,
+            "weight": 1.0,
+            "weighted": 1.0
+          }
+        ]
+      },
+      {
+        "crop": "Cotton",
+        "translated_name": "कपास",
+        "family": "Fibre",
+        "horizon": "SEASONAL",
+        "total": 16.0,
+        "max_total": 17.0,
+        "suitability_pct": 94.1,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 1,
+            "weight": 1.0,
+            "weighted": 1.0
+          }
+        ]
+      },
+      {
+        "crop": "Radish",
+        "translated_name": "मूली",
+        "family": "Vegetable",
+        "horizon": "SEASONAL",
+        "total": 16.0,
+        "max_total": 17.0,
+        "suitability_pct": 94.1,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 1,
+            "weight": 1.0,
+            "weighted": 1.0
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Agro-climatic zone resolved to Zone 6 (from pincode 110011).",
+      "Soil texture: no data at these coordinates (road/water/urban). Soil factor skipped."
+    ]
+  },
+  {
+    "uid": "recommendation_history_00d38596-8eff-426c-87e7-aec0b7a97e3c",
+    "created_at": "2026-08-17T18:54:49.629911+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "upid": "users_308e18ea-c68c-49a4-81f0-7007d4430ee4",
+    "subscription_id": "sub-test-001",
+    "lat": 12.52,
+    "lon": 76.89,
+    "season": "RABI",
+    "water_methods": [
+      "DRIP",
+      "SURFACE"
+    ],
+    "budget_bucket": "B2",
+    "previous_crop_code": "Rice (paddy)",
+    "was_fallow": false,
+    "top_n": 5,
+    "lang": "kn",
+    "zone_filter_applied": true,
+    "soil_class_detected": 0,
+    "soil_texture_label": "Unclassified / No Data / Road / Water / Buildings",
+    "results": [
+      {
+        "crop": "Chickpea",
+        "translated_name": "ಕಡಲೆ",
+        "family": "Pulse",
+        "horizon": "SEASONAL",
+        "total": 17.0,
+        "max_total": 17.0,
+        "suitability_pct": 100.0,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 2,
+            "weight": 1.0,
+            "weighted": 2.0
+          }
+        ]
+      },
+      {
+        "crop": "Black gram",
+        "translated_name": "ಉದ್ದು",
+        "family": "Pulse",
+        "horizon": "SEASONAL",
+        "total": 17.0,
+        "max_total": 17.0,
+        "suitability_pct": 100.0,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 2,
+            "weight": 1.0,
+            "weighted": 2.0
+          }
+        ]
+      },
+      {
+        "crop": "Groundnut",
+        "translated_name": "ಕಡಲೆಕಾಯಿ / ಶೇಂಗಾ",
+        "family": "Oilseed",
+        "horizon": "SEASONAL",
+        "total": 17.0,
+        "max_total": 17.0,
+        "suitability_pct": 100.0,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 2,
+            "weight": 1.0,
+            "weighted": 2.0
+          }
+        ]
+      },
+      {
+        "crop": "Onion",
+        "translated_name": "ಈರುಳ್ಳಿ",
+        "family": "Vegetable",
+        "horizon": "SEASONAL",
+        "total": 17.0,
+        "max_total": 17.0,
+        "suitability_pct": 100.0,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 2,
+            "weight": 1.0,
+            "weighted": 2.0
+          }
+        ]
+      },
+      {
+        "crop": "Brinjal",
+        "translated_name": "ಬದನೆಕಾಯಿ",
+        "family": "Vegetable",
+        "horizon": "SEASONAL",
+        "total": 17.0,
+        "max_total": 17.0,
+        "suitability_pct": 100.0,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 2,
+            "weight": 1.0,
+            "weighted": 2.0
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Agro-climatic zone resolved to Zone 10 (from pincode 571401).",
+      "Soil texture: no data at these coordinates (road/water/urban). Soil factor skipped."
+    ]
+  },
+  {
+    "uid": "recommendation_history_376900d7-eb72-4044-87e3-0ec5c59c72e9",
+    "created_at": "2026-08-18T09:43:06.072749+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "upid": "users_308e18ea-c68c-49a4-81f0-7007d4430ee4",
+    "subscription_id": "subscriptions_e17c379d-13a4-43e3-872f-db1ab0469422",
+    "lat": 14.462,
+    "lon": 75.989,
+    "season": "KHARIF",
+    "water_methods": [
+      "RAINFED"
+    ],
+    "budget_bucket": "B1",
+    "previous_crop_code": "Wheat",
+    "was_fallow": false,
+    "top_n": 5,
+    "lang": "kn",
+    "zone_filter_applied": true,
+    "soil_class_detected": 6,
+    "soil_texture_label": "Clay Loam",
+    "results": [
+      {
+        "crop": "Green gram",
+        "translated_name": "ಹೆಸರು ಕಾಳು",
+        "family": "Pulse",
+        "horizon": "SEASONAL",
+        "total": 20.0,
+        "max_total": 20.0,
+        "suitability_pct": 100.0,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "SOIL",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 2,
+            "weight": 1.0,
+            "weighted": 2.0
+          }
+        ]
+      },
+      {
+        "crop": "Black gram",
+        "translated_name": "ಉದ್ದು",
+        "family": "Pulse",
+        "horizon": "SEASONAL",
+        "total": 20.0,
+        "max_total": 20.0,
+        "suitability_pct": 100.0,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "SOIL",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 2,
+            "weight": 1.0,
+            "weighted": 2.0
+          }
+        ]
+      },
+      {
+        "crop": "Pumpkin",
+        "translated_name": "ಕುಂಬಳಕಾಯಿ",
+        "family": "Vegetable",
+        "horizon": "SEASONAL",
+        "total": 20.0,
+        "max_total": 20.0,
+        "suitability_pct": 100.0,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "SOIL",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 2,
+            "weight": 1.0,
+            "weighted": 2.0
+          }
+        ]
+      },
+      {
+        "crop": "Cowpea",
+        "translated_name": "ಅಲಸಂದೆ",
+        "family": "Pulse",
+        "horizon": "SEASONAL",
+        "total": 20.0,
+        "max_total": 20.0,
+        "suitability_pct": 100.0,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "SOIL",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 2,
+            "weight": 1.0,
+            "weighted": 2.0
+          }
+        ]
+      },
+      {
+        "crop": "Fodder maize",
+        "translated_name": "ಮೇವಿನ ಮೆಕ್ಕೆಜೋಳ",
+        "family": "Fodder",
+        "horizon": "SEASONAL",
+        "total": 20.0,
+        "max_total": 20.0,
+        "suitability_pct": 100.0,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "SOIL",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 2,
+            "weight": 1.0,
+            "weighted": 2.0
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Agro-climatic zone resolved to Zone 10 (from pincode 577003).",
+      "Soil texture auto-detected: Clay Loam (Class 6) from coordinates."
+    ]
+  },
+  {
+    "uid": "recommendation_history_2bfc4cbb-ae86-477b-afd3-16cdce57c042",
+    "created_at": "2026-08-18T09:43:29.825490+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "upid": "users_308e18ea-c68c-49a4-81f0-7007d4430ee4",
+    "subscription_id": "subscriptions_e17c379d-13a4-43e3-872f-db1ab0469422",
+    "lat": 14.462,
+    "lon": 75.989,
+    "season": "KHARIF",
+    "water_methods": [
+      "SURFACE"
+    ],
+    "budget_bucket": "B2",
+    "previous_crop_code": "Wheat",
+    "was_fallow": false,
+    "top_n": 5,
+    "lang": "kn",
+    "zone_filter_applied": true,
+    "soil_class_detected": 6,
+    "soil_texture_label": "Clay Loam",
+    "results": [
+      {
+        "crop": "Pigeon pea",
+        "translated_name": "ತೊಗರಿ",
+        "family": "Pulse",
+        "horizon": "SEASONAL",
+        "total": 20.0,
+        "max_total": 20.0,
+        "suitability_pct": 100.0,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "SOIL",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 2,
+            "weight": 1.0,
+            "weighted": 2.0
+          }
+        ]
+      },
+      {
+        "crop": "Green gram",
+        "translated_name": "ಹೆಸರು ಕಾಳು",
+        "family": "Pulse",
+        "horizon": "SEASONAL",
+        "total": 20.0,
+        "max_total": 20.0,
+        "suitability_pct": 100.0,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "SOIL",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 2,
+            "weight": 1.0,
+            "weighted": 2.0
+          }
+        ]
+      },
+      {
+        "crop": "Black gram",
+        "translated_name": "ಉದ್ದು",
+        "family": "Pulse",
+        "horizon": "SEASONAL",
+        "total": 20.0,
+        "max_total": 20.0,
+        "suitability_pct": 100.0,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "SOIL",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 2,
+            "weight": 1.0,
+            "weighted": 2.0
+          }
+        ]
+      },
+      {
+        "crop": "Brinjal",
+        "translated_name": "ಬದನೆಕಾಯಿ",
+        "family": "Vegetable",
+        "horizon": "SEASONAL",
+        "total": 20.0,
+        "max_total": 20.0,
+        "suitability_pct": 100.0,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "SOIL",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 2,
+            "weight": 1.0,
+            "weighted": 2.0
+          }
+        ]
+      },
+      {
+        "crop": "Okra",
+        "translated_name": "ಬೆಂಡೆಕಾಯಿ",
+        "family": "Vegetable",
+        "horizon": "SEASONAL",
+        "total": 20.0,
+        "max_total": 20.0,
+        "suitability_pct": 100.0,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "SOIL",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 2,
+            "weight": 1.0,
+            "weighted": 2.0
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Agro-climatic zone resolved to Zone 10 (from pincode 577003).",
+      "Soil texture auto-detected: Clay Loam (Class 6) from coordinates."
+    ]
+  },
+  {
+    "uid": "recommendation_history_fe783dcd-1a04-4492-80ae-90034f5e9993",
+    "created_at": "2026-08-18T09:43:38.051439+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "upid": "users_308e18ea-c68c-49a4-81f0-7007d4430ee4",
+    "subscription_id": "subscriptions_e17c379d-13a4-43e3-872f-db1ab0469422",
+    "lat": 14.462,
+    "lon": 75.989,
+    "season": "KHARIF",
+    "water_methods": [
+      "SURFACE"
+    ],
+    "budget_bucket": "B2",
+    "previous_crop_code": "Wheat",
+    "was_fallow": false,
+    "top_n": 5,
+    "lang": "en",
+    "zone_filter_applied": true,
+    "soil_class_detected": 6,
+    "soil_texture_label": "Clay Loam",
+    "results": [
+      {
+        "crop": "Pigeon pea",
+        "translated_name": null,
+        "family": "Pulse",
+        "horizon": "SEASONAL",
+        "total": 20.0,
+        "max_total": 20.0,
+        "suitability_pct": 100.0,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "SOIL",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 2,
+            "weight": 1.0,
+            "weighted": 2.0
+          }
+        ]
+      },
+      {
+        "crop": "Green gram",
+        "translated_name": null,
+        "family": "Pulse",
+        "horizon": "SEASONAL",
+        "total": 20.0,
+        "max_total": 20.0,
+        "suitability_pct": 100.0,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "SOIL",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 2,
+            "weight": 1.0,
+            "weighted": 2.0
+          }
+        ]
+      },
+      {
+        "crop": "Black gram",
+        "translated_name": null,
+        "family": "Pulse",
+        "horizon": "SEASONAL",
+        "total": 20.0,
+        "max_total": 20.0,
+        "suitability_pct": 100.0,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "SOIL",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 2,
+            "weight": 1.0,
+            "weighted": 2.0
+          }
+        ]
+      },
+      {
+        "crop": "Brinjal",
+        "translated_name": null,
+        "family": "Vegetable",
+        "horizon": "SEASONAL",
+        "total": 20.0,
+        "max_total": 20.0,
+        "suitability_pct": 100.0,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "SOIL",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 2,
+            "weight": 1.0,
+            "weighted": 2.0
+          }
+        ]
+      },
+      {
+        "crop": "Okra",
+        "translated_name": null,
+        "family": "Vegetable",
+        "horizon": "SEASONAL",
+        "total": 20.0,
+        "max_total": 20.0,
+        "suitability_pct": 100.0,
+        "factors": [
+          {
+            "factor": "SEASON",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "WATER",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "ZONE",
+            "points": 2,
+            "weight": 2.0,
+            "weighted": 4.0
+          },
+          {
+            "factor": "SOIL",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "BUDGET",
+            "points": 2,
+            "weight": 1.5,
+            "weighted": 3.0
+          },
+          {
+            "factor": "ROTATION",
+            "points": 2,
+            "weight": 1.0,
+            "weighted": 2.0
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Agro-climatic zone resolved to Zone 10 (from pincode 577003).",
+      "Soil texture auto-detected: Clay Loam (Class 6) from coordinates."
+    ]
+  }
+]

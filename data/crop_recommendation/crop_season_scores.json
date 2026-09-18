@@ -1,0 +1,3746 @@
+[
+  {
+    "uid": "crop-season-001-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-001",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-001-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-001",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-001-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-001",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-001-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-001",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-002-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-002",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-002-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-002",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-002-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-002",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-002-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-002",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-003-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-003",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-003-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-003",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-003-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-003",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-003-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-003",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-004-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-004",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-004-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-004",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-004-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-004",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-004-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-004",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-005-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-005",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-005-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-005",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-005-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-005",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-005-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-005",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-006-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-006",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-006-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-006",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-006-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-006",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-006-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-006",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-007-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-007",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-007-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-007",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-007-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-007",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-007-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-007",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-008-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-008",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-008-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-008",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-008-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-008",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-008-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-008",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-009-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-009",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-009-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-009",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-009-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-009",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-009-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-009",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-010-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-010",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-010-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-010",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-010-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-010",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-010-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-010",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-011-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-011",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-011-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-011",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-011-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-011",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-011-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-011",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-012-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-012",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-012-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-012",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-012-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-012",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-012-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-012",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-013-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-013",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-013-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-013",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-013-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-013",
+    "season": "ZAID",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-013-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-013",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-014-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-014",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-014-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-014",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-014-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-014",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-014-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-014",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-015-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-015",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-015-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-015",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-015-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-015",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-015-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-015",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-016-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-016",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-016-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-016",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-016-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-016",
+    "season": "ZAID",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-016-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-016",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-017-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-017",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-017-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-017",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-017-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-017",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-017-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-017",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-018-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-018",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-018-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-018",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-018-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-018",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-018-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-018",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-019-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-019",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-019-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-019",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-019-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-019",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-019-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-019",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-020-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-020",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-020-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-020",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-020-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-020",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-020-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-020",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-021-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-021",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-021-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-021",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-021-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-021",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-021-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-021",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-022-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-022",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-022-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-022",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-022-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-022",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-022-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-022",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-023-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-023",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-023-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-023",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-023-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-023",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-023-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-023",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-024-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-024",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-024-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-024",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-024-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-024",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-024-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-024",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-025-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-025",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-025-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-025",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-025-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-025",
+    "season": "ZAID",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-025-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-025",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-026-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-026",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-026-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-026",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-026-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-026",
+    "season": "ZAID",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-026-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-026",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-027-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-027",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-027-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-027",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-027-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-027",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-027-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-027",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-028-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-028",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-028-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-028",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-028-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-028",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-028-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-028",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-029-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-029",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-029-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-029",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-029-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-029",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-029-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-029",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-030-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-030",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-030-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-030",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-030-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-030",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-030-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-030",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-031-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-031",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-031-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-031",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-031-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-031",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-031-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-031",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-032-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-032",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-032-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-032",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-032-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-032",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-032-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-032",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-033-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-033",
+    "season": "KHARIF",
+    "score": 1
+  },
+  {
+    "uid": "crop-season-033-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-033",
+    "season": "RABI",
+    "score": 1
+  },
+  {
+    "uid": "crop-season-033-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-033",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-033-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-033",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-034-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-034",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-034-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-034",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-034-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-034",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-034-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-034",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-035-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-035",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-035-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-035",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-035-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-035",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-035-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-035",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-036-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-036",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-036-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-036",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-036-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-036",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-036-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-036",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-037-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-037",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-037-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-037",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-037-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-037",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-037-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-037",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-038-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-038",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-038-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-038",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-038-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-038",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-038-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-038",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-039-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-039",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-039-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-039",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-039-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-039",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-039-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-039",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-040-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-040",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-040-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-040",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-040-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-040",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-040-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-040",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-041-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-041",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-041-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-041",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-041-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-041",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-041-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-041",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-042-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-042",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-042-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-042",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-042-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-042",
+    "season": "ZAID",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-042-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-042",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-043-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-043",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-043-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-043",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-043-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-043",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-043-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-043",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-044-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-044",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-044-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-044",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-044-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-044",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-044-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-044",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-045-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-045",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-045-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-045",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-045-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-045",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-045-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-045",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-046-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-046",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-046-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-046",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-046-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-046",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-046-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-046",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-047-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-047",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-047-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-047",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-047-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-047",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-047-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-047",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-048-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-048",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-048-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-048",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-048-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-048",
+    "season": "ZAID",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-048-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-048",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-049-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-049",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-049-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-049",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-049-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-049",
+    "season": "ZAID",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-049-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-049",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-050-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-050",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-050-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-050",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-050-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-050",
+    "season": "ZAID",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-050-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-050",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-051-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-051",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-051-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-051",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-051-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-051",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-051-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-051",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-052-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-052",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-052-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-052",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-052-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-052",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-052-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-052",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-053-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-053",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-053-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-053",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-053-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-053",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-053-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-053",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-054-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-054",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-054-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-054",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-054-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-054",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-054-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-054",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-055-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-055",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-055-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-055",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-055-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-055",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-055-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-055",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-056-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-056",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-056-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-056",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-056-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-056",
+    "season": "ZAID",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-056-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-056",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-057-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-057",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-057-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-057",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-057-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-057",
+    "season": "ZAID",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-057-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-057",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-058-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-058",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-058-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-058",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-058-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-058",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-058-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-058",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-059-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-059",
+    "season": "KHARIF",
+    "score": 1
+  },
+  {
+    "uid": "crop-season-059-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-059",
+    "season": "RABI",
+    "score": 1
+  },
+  {
+    "uid": "crop-season-059-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-059",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-059-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-059",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-060-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-060",
+    "season": "KHARIF",
+    "score": 1
+  },
+  {
+    "uid": "crop-season-060-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-060",
+    "season": "RABI",
+    "score": 1
+  },
+  {
+    "uid": "crop-season-060-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-060",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-060-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-060",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-061-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-061",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-061-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-061",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-061-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-061",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-061-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-061",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-062-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-062",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-062-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-062",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-062-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-062",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-062-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-062",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-063-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-063",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-063-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-063",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-063-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-063",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-063-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-063",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-064-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-064",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-064-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-064",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-064-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-064",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-064-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-064",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-065-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-065",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-065-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-065",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-065-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-065",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-065-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-065",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-066-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-066",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-066-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-066",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-066-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-066",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-066-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-066",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-067-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-067",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-067-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-067",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-067-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-067",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-067-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-067",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-068-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-068",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-068-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-068",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-068-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-068",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-068-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-068",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-069-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-069",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-069-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-069",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-069-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-069",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-069-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-069",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-070-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-070",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-070-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-070",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-070-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-070",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-070-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-070",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-071-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-071",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-071-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-071",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-071-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-071",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-071-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-071",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-072-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-072",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-072-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-072",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-072-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-072",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-072-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-072",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-073-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-073",
+    "season": "KHARIF",
+    "score": 1
+  },
+  {
+    "uid": "crop-season-073-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-073",
+    "season": "RABI",
+    "score": 1
+  },
+  {
+    "uid": "crop-season-073-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-073",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-073-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-073",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-074-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-074",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-074-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-074",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-074-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-074",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-074-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-074",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-075-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-075",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-075-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-075",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-075-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-075",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-075-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-075",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-076-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-076",
+    "season": "KHARIF",
+    "score": 1
+  },
+  {
+    "uid": "crop-season-076-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-076",
+    "season": "RABI",
+    "score": 1
+  },
+  {
+    "uid": "crop-season-076-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-076",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-076-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-076",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-077-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-077",
+    "season": "KHARIF",
+    "score": 1
+  },
+  {
+    "uid": "crop-season-077-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-077",
+    "season": "RABI",
+    "score": 1
+  },
+  {
+    "uid": "crop-season-077-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-077",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-077-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-077",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-078-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-078",
+    "season": "KHARIF",
+    "score": 1
+  },
+  {
+    "uid": "crop-season-078-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-078",
+    "season": "RABI",
+    "score": 1
+  },
+  {
+    "uid": "crop-season-078-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-078",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-078-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-078",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-079-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-079",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-079-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-079",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-079-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-079",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-079-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-079",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-080-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-080",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-080-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-080",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-080-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-080",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-080-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-080",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-081-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-081",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-081-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-081",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-081-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-081",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-081-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-081",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-082-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-082",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-082-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-082",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-082-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-082",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-082-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-082",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-083-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-083",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-083-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-083",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-083-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-083",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-083-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-083",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-084-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-084",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-084-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-084",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-084-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-084",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-084-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-084",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-085-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-085",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-085-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-085",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-085-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-085",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-085-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-085",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-086-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-086",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-086-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-086",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-086-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-086",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-086-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-086",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-087-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-087",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-087-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-087",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-087-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-087",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-087-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-087",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-088-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-088",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-088-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-088",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-088-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-088",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-088-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-088",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-089-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-089",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-089-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-089",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-089-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-089",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-089-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-089",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-090-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-090",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-090-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-090",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-090-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-090",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-090-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-090",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-091-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-091",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-091-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-091",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-091-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-091",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-091-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-091",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-092-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-092",
+    "season": "KHARIF",
+    "score": 1
+  },
+  {
+    "uid": "crop-season-092-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-092",
+    "season": "RABI",
+    "score": 1
+  },
+  {
+    "uid": "crop-season-092-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-092",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-092-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-092",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-093-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-093",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-093-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-093",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-093-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-093",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-093-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-093",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-094-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-094",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-094-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-094",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-094-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-094",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-094-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-094",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-095-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-095",
+    "season": "KHARIF",
+    "score": 1
+  },
+  {
+    "uid": "crop-season-095-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-095",
+    "season": "RABI",
+    "score": 1
+  },
+  {
+    "uid": "crop-season-095-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-095",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-095-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-095",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-096-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-096",
+    "season": "KHARIF",
+    "score": 1
+  },
+  {
+    "uid": "crop-season-096-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-096",
+    "season": "RABI",
+    "score": 1
+  },
+  {
+    "uid": "crop-season-096-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-096",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-096-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-096",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-097-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-097",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-097-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-097",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-097-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-097",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-097-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-097",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-098-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-098",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-098-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-098",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-098-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-098",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-098-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-098",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-099-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-099",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-099-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-099",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-099-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-099",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-099-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-099",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-100-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-100",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-100-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-100",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-100-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-100",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-100-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-100",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-101-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-101",
+    "season": "KHARIF",
+    "score": 1
+  },
+  {
+    "uid": "crop-season-101-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-101",
+    "season": "RABI",
+    "score": 1
+  },
+  {
+    "uid": "crop-season-101-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-101",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-101-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-101",
+    "season": "LONGTERM",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-102-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-102",
+    "season": "KHARIF",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-102-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-102",
+    "season": "RABI",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-102-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-102",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-102-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-102",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-103-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-103",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-103-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-103",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-103-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-103",
+    "season": "ZAID",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-103-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-103",
+    "season": "LONGTERM",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-104-kharif",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-104",
+    "season": "KHARIF",
+    "score": 2
+  },
+  {
+    "uid": "crop-season-104-rabi",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-104",
+    "season": "RABI",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-104-zaid",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-104",
+    "season": "ZAID",
+    "score": 0
+  },
+  {
+    "uid": "crop-season-104-longterm",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-104",
+    "season": "LONGTERM",
+    "score": 0
+  }
+]

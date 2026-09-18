@@ -1,0 +1,3746 @@
+[
+  {
+    "uid": "522a3c71-0bfa-47de-9ff4-6f8e5470439f",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-001",
+    "method": "RAINFED",
+    "score": 0
+  },
+  {
+    "uid": "3af4ef58-2fd8-4bba-bbfa-213b20eb0879",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-001",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "5f47440a-e924-4b15-9d5d-97a206a8c3a0",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-001",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "6f517ed4-1116-4d1c-b4a0-26bbfe8f2eed",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-001",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "23903311-a08c-4af2-a650-6758d0f7a6bf",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-002",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "7086abf2-0172-4910-86aa-52a75a8b332a",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-002",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "f094b0a6-c4a5-43a8-9779-fee36e8e4e8a",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-002",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "f6f5ec47-b175-4001-bd67-645a27cdd822",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-002",
+    "method": "SPRINKLER",
+    "score": 2
+  },
+  {
+    "uid": "32c6e05e-f56f-4c31-a03b-0a49f58c59cf",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-003",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "e4d53c70-6647-4c85-8d8b-728ec845513f",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-003",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "67eccf95-df2c-437f-a315-b5a8918cfd0e",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-003",
+    "method": "DRIP",
+    "score": 1
+  },
+  {
+    "uid": "f2d6a333-bf38-497f-9b10-e1b012b3a076",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-003",
+    "method": "SPRINKLER",
+    "score": 1
+  },
+  {
+    "uid": "92316221-4c34-4df5-805d-fb91fd6e9978",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-004",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "e8aeda55-5095-41b9-a52c-ec5204a08e83",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-004",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "cf386622-7be2-4c6e-abaa-9d6c95a2c4ba",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-004",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "61651bd8-2eed-4503-9409-e4f9c35731ed",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-004",
+    "method": "SPRINKLER",
+    "score": 1
+  },
+  {
+    "uid": "e674b66b-de03-4d24-9984-e96a8d1676fb",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-005",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "2cc3ae72-1477-4efd-8adc-63e75a74e1e5",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-005",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "dde85a49-45c6-4d58-bc90-b4390155da7d",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-005",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "e58872fe-b1db-4e7e-a01b-b39710c16c9f",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-005",
+    "method": "SPRINKLER",
+    "score": 1
+  },
+  {
+    "uid": "81e42b15-aa96-46de-bb82-d79f812ff4d9",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-006",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "b6d3987e-2241-4fb7-b23a-a6f3ae778720",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-006",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "0d72d3ee-0940-4d3f-88ae-bf5509c9fc0a",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-006",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "44331780-f064-4c70-b5e9-221bbee5923a",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-006",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "44e2b4f4-4b4b-4d02-b15b-0841eed9992a",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-007",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "06840b8e-c2e9-4de5-9ad8-70d4e3a431dd",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-007",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "553d60da-1180-4890-9294-f9f745a596a1",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-007",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "4dde911f-5b37-4b98-9609-f16f26d7d7c0",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-007",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "887e7e24-d023-4b46-b6a1-63d7eae772c2",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-008",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "080a19cd-7466-4be1-b326-cd2982d891c0",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-008",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "dcd71f48-8284-451c-bba1-2c226b7bb75e",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-008",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "3c832fec-fa86-48a2-8744-ba07426fd926",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-008",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "ae10ea07-2a17-4207-862c-2679388700a3",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-009",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "b0fa75ae-cdec-40b1-99fd-31293a74b891",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-009",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "6619e258-397a-4f77-96c7-ddebde5c8a55",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-009",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "4667934b-6f69-443a-a60e-e8465113e34e",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-009",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "c70d9d7f-5ad5-4c13-ab91-7869fbc98848",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-010",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "1f2d8ae3-93fe-431f-894a-6321526e043d",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-010",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "a61eb039-8549-4efc-b0f4-7918e10f02dd",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-010",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "bed47adf-f80d-4913-823a-f95da3b94c62",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-010",
+    "method": "SPRINKLER",
+    "score": 1
+  },
+  {
+    "uid": "09608585-6d0d-44f0-83ca-91b7f91e2bfc",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-011",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "e8e667d6-f881-4d0d-a752-7062af3cd3d4",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-011",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "39611fea-c5de-478c-946c-b220940d3b98",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-011",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "04c7a920-48e0-4f53-8c4e-91bc916d2a45",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-011",
+    "method": "SPRINKLER",
+    "score": 2
+  },
+  {
+    "uid": "7e29b881-de5b-4cb9-896c-25546a7a3f92",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-012",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "ed4cbfe9-187b-426a-b3f3-0269f501d215",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-012",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "bfafecdd-0dc4-4553-a2d0-9a83a5f2d392",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-012",
+    "method": "DRIP",
+    "score": 1
+  },
+  {
+    "uid": "e4fc2001-d622-493b-8d6b-395b5783fe6d",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-012",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "62597227-2bed-4fe1-a59b-efd0e15e58fa",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-013",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "26f43071-4697-40f3-8189-ebeabb1a05d7",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-013",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "f36b2b01-593f-4d03-ac77-c96680f5c669",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-013",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "d4705fd3-4402-4074-a2bf-cf0627cbfcc5",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-013",
+    "method": "SPRINKLER",
+    "score": 1
+  },
+  {
+    "uid": "d6fba90b-0492-4691-8e0a-73389c523cc7",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-014",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "36dfd161-223b-402c-a5a2-ae9cfb38d11d",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-014",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "8b2e8aa7-a6c4-4f1c-aa79-09a9d0e83ab6",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-014",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "2be5c7d5-cf2f-4a03-99ec-fe502794ab81",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-014",
+    "method": "SPRINKLER",
+    "score": 1
+  },
+  {
+    "uid": "6dd3fab1-3ede-45ba-9921-6714fe92a1c2",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-015",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "711600fc-8b61-41b3-93cf-079dc1b2767b",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-015",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "d5513e84-d9ee-4db6-aa72-003ba46d176c",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-015",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "38723d64-044b-43fd-b9bf-f0b82bd4900c",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-015",
+    "method": "SPRINKLER",
+    "score": 1
+  },
+  {
+    "uid": "17b53f14-4552-4dff-a866-bdd3b4c10944",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-016",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "3559b594-0267-4c22-811f-d892bce82c2e",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-016",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "bfcd42ee-843e-49fe-a98b-2a4f719e0916",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-016",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "7d1c14aa-a8bf-40d7-87c8-e06c425d14f2",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-016",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "9028f67d-72da-48d5-be3d-ab2ce9ea8dd0",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-017",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "320ba7bb-a00d-437d-ae65-7bb845c5a549",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-017",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "6b735bdc-2083-49f5-84b6-72060052a8cd",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-017",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "8057f3d8-52b2-4adf-b9a5-a842dd23845d",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-017",
+    "method": "SPRINKLER",
+    "score": 1
+  },
+  {
+    "uid": "bf6b0d02-01d6-4eef-94d2-42aa1f513581",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-018",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "23a895b7-01a0-418d-964e-67b31c07be7d",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-018",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "693a2e41-b5d0-4b25-bcfb-ea3f96bfba3f",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-018",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "88725fa7-7235-4796-8118-8ab1ac412494",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-018",
+    "method": "SPRINKLER",
+    "score": 1
+  },
+  {
+    "uid": "5fca2c9f-1825-4941-b0bb-ce8fdb01d75b",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-019",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "c6258b40-4970-4ba1-8dc0-2019c874a6af",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-019",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "2f059f4e-721b-4458-b5da-dde6f47960a5",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-019",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "bf9a20bd-ebbf-44d2-90e3-8e5e27139c8f",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-019",
+    "method": "SPRINKLER",
+    "score": 1
+  },
+  {
+    "uid": "320bd77e-fa3a-431a-93b5-a1352666c9f3",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-020",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "c9be2bd6-fa9c-47d0-8cac-7077e6f36ab0",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-020",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "02eb401c-a0db-4b60-82e4-fd5f58d43077",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-020",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "f1842acd-8bcd-4a87-a38c-64e91e8b9d9e",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-020",
+    "method": "SPRINKLER",
+    "score": 1
+  },
+  {
+    "uid": "c4cac127-5461-4d76-a21c-3f6e7166eabb",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-021",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "67a508de-ff4f-469f-a47f-83ecd8e8a7eb",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-021",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "55f1a545-cc93-49f0-b6c0-abdccf3209e5",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-021",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "5cb0e9bd-5412-4128-9532-3fe2b8e82879",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-021",
+    "method": "SPRINKLER",
+    "score": 1
+  },
+  {
+    "uid": "71081cc4-5db9-4dca-9f34-fa918ca38532",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-022",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "9ae24d94-898c-47f9-9c17-b3953c4a79ca",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-022",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "be454f4f-fe3e-4625-b003-838eea99b8b1",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-022",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "ef8f0f89-a0e7-4f18-9be1-cf3487c181f1",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-022",
+    "method": "SPRINKLER",
+    "score": 1
+  },
+  {
+    "uid": "73c5add6-ad3c-4ae3-8e3c-f504d8b00543",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-023",
+    "method": "RAINFED",
+    "score": 1
+  },
+  {
+    "uid": "fc8b05b2-b04a-4012-b87f-f6a3f93df8ec",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-023",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "f72b97df-7daf-47d7-adbf-f3efb07bd45e",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-023",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "138f5f2f-bfe7-4244-ba5a-e72aafad17c3",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-023",
+    "method": "SPRINKLER",
+    "score": 2
+  },
+  {
+    "uid": "a56431f7-8a72-40e8-916d-0944c6fe8c7a",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-024",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "73311dac-8ade-4812-868d-545ecd2901e7",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-024",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "36e95716-c5d9-49f8-9877-9f1542d17d11",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-024",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "b6d9df9e-b91c-4a2b-8d9d-745f104d405f",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-024",
+    "method": "SPRINKLER",
+    "score": 2
+  },
+  {
+    "uid": "c4bdac58-b4cf-4344-b8c2-4736473f0be6",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-025",
+    "method": "RAINFED",
+    "score": 1
+  },
+  {
+    "uid": "da9ec1f4-40e9-4c03-a185-be9c3509c72a",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-025",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "b28ba4ae-82ca-4e73-bc0e-c2cd352cf013",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-025",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "71245bb4-7323-497e-8e73-fc63d91eda19",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-025",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "73f997cb-3c35-4353-8fc3-2ed86c33d2eb",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-026",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "45ace692-31bb-4e54-a958-afec864fb7d9",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-026",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "9802abc8-94b0-48f1-a46f-3302c5a82f70",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-026",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "82798893-74cb-4f5a-98c2-329f01fa2830",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-026",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "bc9fdad6-ab91-4094-bdd5-2c83ce788c82",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-027",
+    "method": "RAINFED",
+    "score": 1
+  },
+  {
+    "uid": "decdc9ac-44e5-4f0e-b1b5-769f1f2bddb5",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-027",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "282c4287-453e-4f21-9b0c-640b4455bc41",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-027",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "a7769f53-0561-4c4e-8e14-23504356b00b",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-027",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "bb87c7c4-6c04-4ecd-918f-bef4d54f37f4",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-028",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "0fd78849-4ca8-4b85-90fa-f5c235a29e05",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-028",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "1ce739f9-c506-4b7f-8df9-fbadd74b660a",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-028",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "28969457-2749-46a2-b972-146c5c79d128",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-028",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "f43ce79c-e6e0-4d2b-ae8a-e80c7b0ebcb0",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-029",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "5020aeec-39e2-4701-b49a-4121ac6734e7",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-029",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "64b4d11e-ee95-4fc4-befb-eabe4372b276",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-029",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "0547e8ce-22fa-449c-8258-05e7f996cd5a",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-029",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "13dac9ce-493b-4ade-a04e-2c81a4a504f5",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-030",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "41fa7873-6717-4c69-bc7a-7588f03449ba",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-030",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "41632fac-26a8-49ae-bd7a-f28968840a66",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-030",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "a6c8a490-02d5-47fa-a2a3-24e690a48e94",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-030",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "6356c878-f4a0-43e1-8f21-d6fe77d5927d",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-031",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "0667ce39-d069-4430-9cba-3e72842dfb43",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-031",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "05e1d713-ee52-4520-ac45-c2cdb712a780",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-031",
+    "method": "DRIP",
+    "score": 1
+  },
+  {
+    "uid": "6e7341cf-9e72-4add-993d-0bad876788d5",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-031",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "cfc0f6ec-0291-4283-a57a-bcff3480cb4e",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-032",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "4fe315de-3dc1-414f-8931-cb8d86e3be52",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-032",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "b90f8bad-927b-4b25-b449-a1ab000ed6cc",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-032",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "5e8154a8-1cd1-4c33-9dcb-a9353c9a18f8",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-032",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "59c979af-41f1-473c-94c3-f21482824983",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-033",
+    "method": "RAINFED",
+    "score": 0
+  },
+  {
+    "uid": "16f93a59-1235-448f-a86c-44b9a91e6968",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-033",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "38538fe1-93f2-4765-a819-a4ba27a2a068",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-033",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "b682efba-97e8-49e7-be4a-0ca366faafad",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-033",
+    "method": "SPRINKLER",
+    "score": 1
+  },
+  {
+    "uid": "b0c28619-a219-4335-91eb-f10a9a85ca51",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-034",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "e8e95d58-b51f-414b-b9ec-1a35e10ed070",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-034",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "f59b60a2-e032-4955-ac58-6276073aead6",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-034",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "51468760-8bef-499f-809d-be657cc87c72",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-034",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "ff36eb9a-99b4-4f61-9d0a-7a29817e01f1",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-035",
+    "method": "RAINFED",
+    "score": 1
+  },
+  {
+    "uid": "651706ad-2e45-4547-884d-28ffa8c35474",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-035",
+    "method": "SURFACE",
+    "score": 0
+  },
+  {
+    "uid": "9bfd2797-771e-4b91-9355-911565e617a0",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-035",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "01e07efa-70c9-4b22-b9f7-1971ca1c5801",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-035",
+    "method": "SPRINKLER",
+    "score": 2
+  },
+  {
+    "uid": "c406c144-e9a1-4a0b-8d0f-347e107de797",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-036",
+    "method": "RAINFED",
+    "score": 1
+  },
+  {
+    "uid": "734f19ab-8b80-4f8b-bf3a-7c771dfe9d15",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-036",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "b82061be-651b-4c32-a3fc-b11450bbad8f",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-036",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "842e8e34-0aa8-42a2-81fb-eb8ffae919f7",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-036",
+    "method": "SPRINKLER",
+    "score": 2
+  },
+  {
+    "uid": "95293d5d-038c-4bc6-a82e-23da6c78f1f6",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-037",
+    "method": "RAINFED",
+    "score": 1
+  },
+  {
+    "uid": "14619041-61e3-427c-973b-ec8d919d44d8",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-037",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "d1334a30-11fa-47a5-a05e-8fce80107c07",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-037",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "94124b9e-7626-48e5-8be9-23cd78a7505b",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-037",
+    "method": "SPRINKLER",
+    "score": 1
+  },
+  {
+    "uid": "08446161-bff8-4058-a202-a120ed390d25",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-038",
+    "method": "RAINFED",
+    "score": 1
+  },
+  {
+    "uid": "444028f4-4f92-4b94-8368-791fe3fbdbd1",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-038",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "d44bad12-d57a-4387-b102-0e7ce1e892a1",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-038",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "855614ca-76ee-44f1-8da2-3821b0a28172",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-038",
+    "method": "SPRINKLER",
+    "score": 1
+  },
+  {
+    "uid": "e026e1e6-e023-4e0a-bb1c-0a4f7ca326c2",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-039",
+    "method": "RAINFED",
+    "score": 0
+  },
+  {
+    "uid": "32e9fb03-97c9-4d8c-8818-d7c507a55fcf",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-039",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "81f4b889-0e1c-4331-8b22-943f98338518",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-039",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "082277b0-6e86-4f9d-ab25-d7b94ccaf6c1",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-039",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "94547f13-478b-4dd8-a6a5-c0efeabd87a0",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-040",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "8e683be6-56b1-4735-9ff3-51bbf975bc8c",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-040",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "47bad5ad-aaa4-465c-bc06-6ab999195156",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-040",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "1d620c18-0341-424e-a0e0-2fbdc516fbf5",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-040",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "d414a257-0b79-4aa2-b9ef-e5a34c90bde8",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-041",
+    "method": "RAINFED",
+    "score": 1
+  },
+  {
+    "uid": "a572e60b-b8d5-4abc-bba0-add610f224d8",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-041",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "a49c8456-7157-4f68-8cc8-513ffbad01ec",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-041",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "6958dcb4-fd48-4353-8303-72316d0df866",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-041",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "16c032f7-0a35-4618-9571-e78d1d748e06",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-042",
+    "method": "RAINFED",
+    "score": 1
+  },
+  {
+    "uid": "a1a49dce-b24e-4305-bda5-b78f5ff1d7df",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-042",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "f895684e-be07-40a2-9024-b6ccffa95835",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-042",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "e4e8afe8-45a6-4d21-9ff7-29c796c4b05f",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-042",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "ba7c3201-e56d-4a2c-af6d-1cc27486706e",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-043",
+    "method": "RAINFED",
+    "score": 0
+  },
+  {
+    "uid": "502c4cd3-f67c-4d69-94a0-10568f4dd428",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-043",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "9c90791f-c8de-4421-baeb-5c15d1430f67",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-043",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "b6554b27-56c5-43c8-a092-022a0668fa7d",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-043",
+    "method": "SPRINKLER",
+    "score": 1
+  },
+  {
+    "uid": "117c20d2-331b-4593-9482-e950548b3384",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-044",
+    "method": "RAINFED",
+    "score": 0
+  },
+  {
+    "uid": "6df7efe7-e5df-43ba-8bbb-900365f51f7c",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-044",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "ae0d9d54-c0e9-404f-a0b4-7a583bfa2a05",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-044",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "9f1a9fe0-8e48-4a45-a72c-11d28f046dc4",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-044",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "e8556f8f-c628-41dc-9476-6c5f36bfe9eb",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-045",
+    "method": "RAINFED",
+    "score": 0
+  },
+  {
+    "uid": "a0302179-0c43-4132-ae26-899c28b0f757",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-045",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "699fa5f5-d618-4f70-8b93-d351f738039a",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-045",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "1a5d192f-9dbc-4339-905a-23f2e1744fcf",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-045",
+    "method": "SPRINKLER",
+    "score": 2
+  },
+  {
+    "uid": "9ff0b236-1b6e-4151-a762-28226f1fdeff",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-046",
+    "method": "RAINFED",
+    "score": 0
+  },
+  {
+    "uid": "9e81b647-86f5-40bc-afb4-b938c7d847dc",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-046",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "b0ee024d-dcd7-45df-a7b9-5afeb1db9b35",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-046",
+    "method": "DRIP",
+    "score": 1
+  },
+  {
+    "uid": "d4c25ce4-ff5c-4e1d-af14-8758c662d096",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-046",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "b386990f-fc15-47b6-822e-acd6c927e44a",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-047",
+    "method": "RAINFED",
+    "score": 0
+  },
+  {
+    "uid": "02897408-8b97-4823-af3e-60975e4bdbb8",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-047",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "61f60b2b-c4f4-44a9-ab89-872af0283ea2",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-047",
+    "method": "DRIP",
+    "score": 1
+  },
+  {
+    "uid": "d58de964-e3dd-43ce-8249-4f8bfeded798",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-047",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "cf7896de-4c49-4985-8200-7b04ab8168fe",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-048",
+    "method": "RAINFED",
+    "score": 0
+  },
+  {
+    "uid": "a9026722-7abb-491c-adec-300018c1bd33",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-048",
+    "method": "SURFACE",
+    "score": 1
+  },
+  {
+    "uid": "1048e856-ebbe-4dc8-a24f-b60491454bc6",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-048",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "7aa3d528-84ec-45e6-8eed-f3a5b843c783",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-048",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "f8fd28f0-4d9a-4b47-801c-61aa6360b6e3",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-049",
+    "method": "RAINFED",
+    "score": 1
+  },
+  {
+    "uid": "79a782d2-85fd-4bd0-9861-1b0af1ab418a",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-049",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "72c4dc77-be14-4ee0-879b-60177e07c63a",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-049",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "0b1446e3-f279-47b5-9791-5f217905fd26",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-049",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "e2885bc0-d3a7-498d-b7c6-101d569f9598",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-050",
+    "method": "RAINFED",
+    "score": 1
+  },
+  {
+    "uid": "e39b215a-3ea2-4ed8-abd1-f5df2571e222",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-050",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "82b5c90d-1615-4599-881e-0678cafa5ae9",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-050",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "388d802a-28b2-46fd-9112-94723be7d689",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-050",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "ad5dc5da-fa70-44ef-a01f-191aee382bb7",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-051",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "c2406364-e2e7-48e3-aefc-0372db974678",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-051",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "837c275c-30f2-46d5-9a4f-1e5bb535c05f",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-051",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "f3bb72a1-bf54-42a7-bd62-adf30eccaaa3",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-051",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "629816c4-7654-41ed-825e-e880d2dcb379",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-052",
+    "method": "RAINFED",
+    "score": 1
+  },
+  {
+    "uid": "d2533482-ec59-415d-ae91-fd7d4b2005ba",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-052",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "43b053d1-257d-4232-82d7-cc01fd937312",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-052",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "0937e09e-9ebd-4b96-8b79-59d3a02b8bc5",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-052",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "2a5137a4-d7a3-4b28-8b72-372025fa0290",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-053",
+    "method": "RAINFED",
+    "score": 0
+  },
+  {
+    "uid": "0338e0ed-5257-4831-9598-b73835a81fec",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-053",
+    "method": "SURFACE",
+    "score": 0
+  },
+  {
+    "uid": "ab873c93-acd4-45d5-9cdb-974e4d993287",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-053",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "08e309d2-01c7-47c6-a214-e26809d5f86e",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-053",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "2c53c5af-a18d-475f-b31e-c250138ca54d",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-054",
+    "method": "RAINFED",
+    "score": 0
+  },
+  {
+    "uid": "8923f530-3fc2-4c02-9ba5-25ff80b93c46",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-054",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "d3211fc6-eea6-4ddc-a90f-a31846a62acd",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-054",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "8465c6b3-0e6d-4085-b0bb-2939a15c3615",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-054",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "060dc040-062a-48e9-a4a9-dd4c69757295",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-055",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "d5fa68ba-216c-4b75-84e2-2cf69d0fc217",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-055",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "33aa6d8a-c21c-4115-b877-7fbd46c617a5",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-055",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "9a24dd6a-745f-4a95-af1d-7bb2b513aaa4",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-055",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "4f19c7a3-74f3-4745-bf4c-200a7dc22657",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-056",
+    "method": "RAINFED",
+    "score": 0
+  },
+  {
+    "uid": "c85882e0-a243-447b-81f4-d2cbcc5e7b89",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-056",
+    "method": "SURFACE",
+    "score": 1
+  },
+  {
+    "uid": "1a8e4ad9-3735-4ca8-ac97-51506697a72d",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-056",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "48154d70-6d89-4090-810d-7309d12cbf07",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-056",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "fe5e790b-055e-4dc7-bbee-4f6239467355",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-057",
+    "method": "RAINFED",
+    "score": 0
+  },
+  {
+    "uid": "5c909c98-59a7-4c9b-bc50-ce7caac0ad68",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-057",
+    "method": "SURFACE",
+    "score": 1
+  },
+  {
+    "uid": "b76b98b8-7d22-4a3d-bff1-45e8da656ab7",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-057",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "04c57524-f47e-49b2-8500-5db973e9ad8e",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-057",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "f2348aac-3fba-4d25-928d-d8c899fba08a",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-058",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "29b267c4-8242-46ed-b230-28b5b2210eb6",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-058",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "b1481ce6-edff-42c4-b6ea-95ef62ae7772",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-058",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "2364ccb9-e47f-4b6d-a92b-ab600124deb1",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-058",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "be104a6d-f22a-4d39-bdc0-d0f2caccd81d",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-059",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "d0822b07-07db-40d3-b175-88bc941a08d2",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-059",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "9520cd27-ff27-490d-bc18-09f5d945f962",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-059",
+    "method": "DRIP",
+    "score": 1
+  },
+  {
+    "uid": "cb8ea99a-a834-4e72-94aa-67a405cdff3a",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-059",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "48f11962-c296-4d2d-bea7-5f2967eafd18",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-060",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "80340499-c488-4cf8-8ffb-6640c6080129",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-060",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "ab56420a-d415-4504-bc0d-8f27ca56e05c",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-060",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "eb1d9c38-c4d9-4d9d-96eb-4e78f27116fd",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-060",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "e332321d-5422-4080-afb2-9d7a37103885",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-061",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "b7fa24af-2082-4ec1-970e-e39e464012d4",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-061",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "75d03b0a-b8df-4594-9b2a-8c59f69e38f6",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-061",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "8ebb00a8-677b-43bf-853f-79530a614565",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-061",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "0da6a0ae-17e3-4abe-a6de-200133eaeb86",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-062",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "987c8d49-2e57-419c-9dd1-6564bf3062d2",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-062",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "bb9b6092-3139-403d-966d-f146b9096bef",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-062",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "4b1eaac7-aaa9-4667-af40-5f3af43effaf",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-062",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "c3b836ef-c807-4ea5-84d9-aeeb4aba558c",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-063",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "86f4a84d-7641-4575-bb56-33860c50e127",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-063",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "023f7873-bf94-4ce2-a13b-ef620e8c4547",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-063",
+    "method": "DRIP",
+    "score": 1
+  },
+  {
+    "uid": "0640e9b1-8a44-4db0-b130-cc50a1fb183c",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-063",
+    "method": "SPRINKLER",
+    "score": 1
+  },
+  {
+    "uid": "c8f78d5d-27c9-415f-b1de-2d78ca31f142",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-064",
+    "method": "RAINFED",
+    "score": 1
+  },
+  {
+    "uid": "f2eb9244-1117-42c2-9849-b5a0f499bea5",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-064",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "d1369ffa-5c05-477f-98da-17567211bafd",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-064",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "6d29beca-0e9f-4b5c-98df-5264ac6d653b",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-064",
+    "method": "SPRINKLER",
+    "score": 2
+  },
+  {
+    "uid": "a9bd0e3c-ecda-4733-bf04-d336ed01954f",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-065",
+    "method": "RAINFED",
+    "score": 1
+  },
+  {
+    "uid": "f58d58a1-6a96-4f6d-a824-d345ebfb4f52",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-065",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "ddd785fb-893d-43fc-98e1-00c35d6986a9",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-065",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "9aaeb6a1-f119-43a1-a942-b664859c64f0",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-065",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "66575431-a8d5-4c9d-942f-96739b01d2ba",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-066",
+    "method": "RAINFED",
+    "score": 1
+  },
+  {
+    "uid": "d2549475-a51a-4b12-832d-fd5567207ec1",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-066",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "8a47e5a5-f214-4425-9b05-1151704e8b14",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-066",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "8f53f37b-2758-4d65-af97-67c95a5d6d18",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-066",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "8ff239b8-c486-44ec-91f2-7be3b7455e70",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-067",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "c9ee94b7-9a2a-4ab3-bddf-9865f866bfb4",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-067",
+    "method": "SURFACE",
+    "score": 0
+  },
+  {
+    "uid": "5ffe337c-f6da-4bb3-bbd5-e9e8df425215",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-067",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "4cb69f49-ac48-4658-b330-894e53e7759d",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-067",
+    "method": "SPRINKLER",
+    "score": 2
+  },
+  {
+    "uid": "ef667be7-68d6-4d3d-b303-25e5dd85a4b2",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-068",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "81117aa0-b852-4794-9b18-18306fbfda2b",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-068",
+    "method": "SURFACE",
+    "score": 0
+  },
+  {
+    "uid": "b870ed9a-a625-4678-9a2b-4001c94f7bfe",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-068",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "be901693-7354-4f2e-a3e5-fc52808869b2",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-068",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "4d2cc9e1-d63a-49e4-bb00-6a285b2410f3",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-069",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "5658b3b9-5bb0-4b1f-b958-634cc575a16a",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-069",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "a8a2305c-9cb9-4f26-b771-ff63ad28f0f9",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-069",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "320dbfd4-576b-4468-9ea7-d47a0472f4fd",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-069",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "baf5e27d-da28-4556-9f64-0e03e3d9f041",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-070",
+    "method": "RAINFED",
+    "score": 1
+  },
+  {
+    "uid": "faf35def-7903-4cc7-ac5b-ba36ea2f134f",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-070",
+    "method": "SURFACE",
+    "score": 1
+  },
+  {
+    "uid": "47fcfa86-639f-422c-9a72-dc228fba52cc",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-070",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "dcde1d24-feb0-431e-b1fc-480f7da7244d",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-070",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "1ce8cc50-ee9d-4e89-b618-15019be505c2",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-071",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "8626e745-9738-4943-8ce3-27061595dd75",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-071",
+    "method": "SURFACE",
+    "score": 0
+  },
+  {
+    "uid": "53109792-9786-488a-b1d7-981143eae9c9",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-071",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "fb05816d-a1d5-4c7d-a4e0-c0b69e0ac941",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-071",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "bfc3b440-9e16-44c7-b070-6a9cbdf10356",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-072",
+    "method": "RAINFED",
+    "score": 1
+  },
+  {
+    "uid": "e74ac401-8569-46c4-a8e9-5e256b184cfb",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-072",
+    "method": "SURFACE",
+    "score": 0
+  },
+  {
+    "uid": "1171f115-10ef-4eaa-8307-52cf0d4c8055",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-072",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "75e29249-3a0f-4942-a265-36f0467f1560",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-072",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "69947430-de9c-4f0e-ad32-3b1edd254f0f",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-073",
+    "method": "RAINFED",
+    "score": 1
+  },
+  {
+    "uid": "9c6b7c05-8c66-4e4a-96a7-effe758919a6",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-073",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "13d927aa-db32-4963-b8f5-a240dae8cc05",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-073",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "8626fcab-8bfe-4cf5-a1f8-4e2d25368cb8",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-073",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "f511b7e2-a00a-4ee9-bbf2-101fddb063a5",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-074",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "d4dd9b5f-8832-43d9-9c0b-b62382364efe",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-074",
+    "method": "SURFACE",
+    "score": 0
+  },
+  {
+    "uid": "94fdf2b3-91c6-4c96-bdb2-f2525a9c314c",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-074",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "8a14b23d-aeb6-4fa0-a445-624f4967d3b1",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-074",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "1ff23dcc-2230-4b80-9817-5551bac3b5fb",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-075",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "a3640ef4-4761-4c7a-955b-12334683cf65",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-075",
+    "method": "SURFACE",
+    "score": 0
+  },
+  {
+    "uid": "c5214df1-7292-4f9e-832e-654948095cae",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-075",
+    "method": "DRIP",
+    "score": 1
+  },
+  {
+    "uid": "e9f5e7e7-53aa-408a-9ef9-5777e723a959",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-075",
+    "method": "SPRINKLER",
+    "score": 2
+  },
+  {
+    "uid": "83d010c0-2a29-42a0-bbf3-0c6267b5c1db",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-076",
+    "method": "RAINFED",
+    "score": 0
+  },
+  {
+    "uid": "1576eec6-524d-40a6-b637-7c0aaef60332",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-076",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "73a9bbdf-bdb9-4683-a397-cd6aeacaaad0",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-076",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "4584a78b-f864-4530-8ba2-d8ee1e97b83d",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-076",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "f7a73cdc-ec26-4e4a-a625-1197b798cd90",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-077",
+    "method": "RAINFED",
+    "score": 0
+  },
+  {
+    "uid": "0158d621-908e-49c1-819c-1e4bfdbeb5a0",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-077",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "1dd83b6c-8c54-42ab-883d-1be6319e721c",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-077",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "69ddd067-caa4-41a2-9ec6-534000bc61aa",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-077",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "92858b3f-7bb6-42b8-9b12-f0f037a58e8b",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-078",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "7a5b9e2a-1321-49f7-ace0-941983fa33a2",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-078",
+    "method": "SURFACE",
+    "score": 0
+  },
+  {
+    "uid": "3b0b159b-757b-46ea-a0bf-cb9d64212534",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-078",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "5dc76552-a91c-4fe5-a5a1-361f25405d47",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-078",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "b6c1e9d2-aab2-487a-ace2-5cfbdd1ea382",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-079",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "a2a6c475-1555-4e62-8f03-b252f79ad96e",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-079",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "cf67cfe0-0dd6-4b67-92fa-8b6e6d736262",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-079",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "1b608332-e00b-456c-b557-16785c820cc7",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-079",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "c83a0828-26d5-4824-b86b-7f011f7b7532",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-080",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "0f8edcec-7dfd-4f7e-bdf4-6077412343ce",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-080",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "dc62c8d1-be20-46ac-bc70-88fcf94e1fd0",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-080",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "eaec87a5-e096-463f-af74-f1a2d0c9f550",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-080",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "c2427fb8-0b64-4960-bae7-2efbfbf1a7f2",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-081",
+    "method": "RAINFED",
+    "score": 0
+  },
+  {
+    "uid": "07112875-4f84-436e-a6b2-ed94ede21f86",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-081",
+    "method": "SURFACE",
+    "score": 0
+  },
+  {
+    "uid": "7ef914c1-173c-421d-85c6-33911fb3fcac",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-081",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "b11b42e3-5420-4208-a7b7-9b3cfe7986b5",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-081",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "6690fdde-c794-4730-8813-023ae4c7205b",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-082",
+    "method": "RAINFED",
+    "score": 0
+  },
+  {
+    "uid": "d501297c-e79d-43d3-a295-d88cad755358",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-082",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "dd8bf03e-97cb-4775-9c20-58be5c1934b0",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-082",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "7ba75355-9b72-4877-983d-97944c912d69",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-082",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "b2b23494-1f76-406c-835c-bebae0e873d5",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-083",
+    "method": "RAINFED",
+    "score": 0
+  },
+  {
+    "uid": "2eaa9a42-27cf-4d5f-a7d1-b7824c530c32",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-083",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "da972d1f-d408-4aa8-bcdd-a41378e7f553",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-083",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "5ae1ab0c-0f4e-40a1-96a2-eba255c21f3b",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-083",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "0d58cd9b-b485-48f7-a4e5-c63c724bac08",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-084",
+    "method": "RAINFED",
+    "score": 0
+  },
+  {
+    "uid": "e9351e21-3c66-46d2-8a7b-982d1f59c267",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-084",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "5d239286-fe9c-41bd-8d67-7eccf669f5f5",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-084",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "0d5d761c-a22a-449b-b977-68a0f9d774b5",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-084",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "40c51f5f-2dd3-4c80-af0b-019d8f7e370e",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-085",
+    "method": "RAINFED",
+    "score": 0
+  },
+  {
+    "uid": "d9e516cf-a17d-4e86-b820-79f879439f47",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-085",
+    "method": "SURFACE",
+    "score": 0
+  },
+  {
+    "uid": "3dc8650c-99b1-4548-93bb-d2cc94ba792a",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-085",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "4570ab67-a0df-4662-9f7d-eb8c847a9329",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-085",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "ead96513-46fc-46d6-b25b-32b5e68d5fd9",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-086",
+    "method": "RAINFED",
+    "score": 1
+  },
+  {
+    "uid": "bf9f663d-0ec6-4318-8fcb-a6a682060e79",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-086",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "72f9701c-63fb-4cdc-844e-afaf5742ba19",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-086",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "74037027-dcc7-40c2-9e8c-85928ca01e5b",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-086",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "a5322256-5a1d-4a61-bbd5-12d60d5b69a1",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-087",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "080f5118-c2d5-48e0-9ec6-8339cef6f04d",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-087",
+    "method": "SURFACE",
+    "score": 0
+  },
+  {
+    "uid": "b952be88-fef5-4830-a3cf-b0e37af78186",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-087",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "dde0f725-db87-4f3d-b0d3-23a24a030fdd",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-087",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "861f191a-bed6-46fb-b951-cbaf9dfe90e3",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-088",
+    "method": "RAINFED",
+    "score": 0
+  },
+  {
+    "uid": "4d2177b4-defc-48ca-a93a-0b5996c7118b",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-088",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "fbe25514-8c51-4052-bf85-3a306876f34c",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-088",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "1d89645d-508b-4af1-8b0a-eeef6e6b3815",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-088",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "62e37547-a63a-4c51-9f4f-168a1aec8f27",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-089",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "486d5760-b265-4afd-a225-d6de3b137026",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-089",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "26eec098-5987-4626-8fe5-e7f8ae9ef28c",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-089",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "b42b84cd-d7a4-4340-9ff0-9ffbe33b2b67",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-089",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "8f10ca8f-35bb-4433-96c1-6fae9379369f",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-090",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "38a5a3eb-b7a9-4811-a56e-f824649adf6e",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-090",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "f477e7ba-72de-4567-8236-87743f660ab5",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-090",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "ba74ca16-ec4d-4068-8836-32d7477bbdd4",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-090",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "4425f90e-359d-49d9-92a9-0f973d8790db",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-091",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "705b9f05-7942-4cad-b695-5993d7284198",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-091",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "3ccd0bad-ea35-4f57-bad7-2e0e13ab6ef1",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-091",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "79568fbb-e8b9-4401-ab6a-5fb09914597a",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-091",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "b7ad8d3d-0bb4-4a9f-add5-87a9cbf99428",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-092",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "8d7f63fd-2626-45a2-adfe-dfcd095bc3c6",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-092",
+    "method": "SURFACE",
+    "score": 0
+  },
+  {
+    "uid": "3906d9f5-5861-4518-b741-89c2480b65f2",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-092",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "b4a3b389-fff5-403b-8416-a76e829d8277",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-092",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "61124a64-cf05-4b11-8b3d-7bddbda099c8",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-093",
+    "method": "RAINFED",
+    "score": 0
+  },
+  {
+    "uid": "54a8290a-d08a-4d19-ae35-5595b588e86d",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-093",
+    "method": "SURFACE",
+    "score": 0
+  },
+  {
+    "uid": "0ce51ed4-97ac-4035-b05f-e78fc09876f8",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-093",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "ab0776db-2ef6-46ef-899b-0fe5b5f67382",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-093",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "58dbab6a-7897-4b3b-a11c-331c93d0bf7b",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-094",
+    "method": "RAINFED",
+    "score": 1
+  },
+  {
+    "uid": "16d721c2-c83e-497e-a9bc-5da7e4c0e5f6",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-094",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "6b293215-9305-4e6a-861a-92a6ce4dd0e8",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-094",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "49212416-a4dc-4361-b104-5d26a921dccf",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-094",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "d3782dd6-f613-49ec-933e-bf693113a55b",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-095",
+    "method": "RAINFED",
+    "score": 1
+  },
+  {
+    "uid": "74cfce2d-a23d-49af-95a7-3a1130fe2d65",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-095",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "1f679f2b-134d-4dd5-8b06-d2e7d72022c5",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-095",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "bdcc73d0-2fec-4f5d-99a6-d3903393e7f5",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-095",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "6ec276d2-d0d2-4b2f-b48e-6529529e81af",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-096",
+    "method": "RAINFED",
+    "score": 0
+  },
+  {
+    "uid": "eb105f75-f692-42d7-a4b4-cd7b81454548",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-096",
+    "method": "SURFACE",
+    "score": 0
+  },
+  {
+    "uid": "d99be2ac-4bc6-4f56-8702-39f74dea442c",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-096",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "a848476b-45cb-489b-94d0-7d6c58c54d5d",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-096",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "0457508b-8883-43eb-a614-91791fc714ca",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-097",
+    "method": "RAINFED",
+    "score": 0
+  },
+  {
+    "uid": "ffb27028-8635-4c21-9af1-e23fd462536d",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-097",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "0f0baa25-63bb-49d9-93e1-61b795709b4f",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-097",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "d96076b5-0797-47b9-aa50-144f7659c50f",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-097",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "76f55ddb-415b-4d79-9d35-6ca52b5dc47a",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-098",
+    "method": "RAINFED",
+    "score": 0
+  },
+  {
+    "uid": "977d8372-85d5-4cd1-8a6c-73948eb034f8",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-098",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "7e74f514-25c6-49db-befb-c491826dea26",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-098",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "4dd37b64-ef19-4b28-a0a3-ae15c6eca348",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-098",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "1dba030b-f450-4eac-8ef6-352673de8450",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-099",
+    "method": "RAINFED",
+    "score": 0
+  },
+  {
+    "uid": "4c1bc2fd-e7d6-403d-8be7-854e521135a3",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-099",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "e9d98ea7-258a-444c-a764-c5f7c16cca4c",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-099",
+    "method": "DRIP",
+    "score": 2
+  },
+  {
+    "uid": "aa057a21-dc14-4905-b0c9-a68669137726",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-099",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "ddcf89a0-f1ec-480e-be2e-24e69499b108",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-100",
+    "method": "RAINFED",
+    "score": 0
+  },
+  {
+    "uid": "a1b1b525-4ac1-42a2-a34d-838c9dff38d1",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-100",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "38d23448-0ada-47dd-a201-973ad3e1d988",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-100",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "9029d1c0-154b-4fb5-b617-91104b2706a4",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-100",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "b4709e93-6b59-45be-912f-c32c4583bb48",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-101",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "38770eeb-16d6-43cb-a5db-8372d2ef43c9",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-101",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "6f0980c6-d01c-48d3-9543-5edf01dfd4d3",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-101",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "f525862b-6019-4c42-9f0a-512a1400a217",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-101",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "27f30c52-8ec7-4ec8-9e4f-cdc0eb648972",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-102",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "a1ddfddf-749f-4cb3-b069-b698b65dd132",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-102",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "3d49a271-ef88-4d11-a4e7-c0d4e63e46dc",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-102",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "bdda726c-15fe-40c2-ae9e-e62b8a73edb8",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-102",
+    "method": "SPRINKLER",
+    "score": 1
+  },
+  {
+    "uid": "2f09302e-fb56-4f58-ad46-639d0740e231",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-103",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "5dcc4cab-8965-48c2-a34f-7712760eb1a0",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-103",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "646641cc-b5f4-4b5a-8bb3-db78e63fc3a6",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-103",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "11bba660-c849-45c1-86ac-e7bf2d9bde5e",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-103",
+    "method": "SPRINKLER",
+    "score": 0
+  },
+  {
+    "uid": "4b737e7f-e09d-458a-92b6-c61138925f91",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-104",
+    "method": "RAINFED",
+    "score": 2
+  },
+  {
+    "uid": "ce349675-bce8-4cd5-8444-275ef24c51e5",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-104",
+    "method": "SURFACE",
+    "score": 2
+  },
+  {
+    "uid": "17612482-c6d2-4886-bb4a-8e49b2f4d6d3",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-104",
+    "method": "DRIP",
+    "score": 0
+  },
+  {
+    "uid": "90d9bbbe-503b-44e0-9522-c47b1075ce66",
+    "created_at": "2026-08-10T11:40:08.878782+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "crop_uid": "crop-104",
+    "method": "SPRINKLER",
+    "score": 0
+  }
+]

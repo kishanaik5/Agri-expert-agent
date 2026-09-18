@@ -1,0 +1,4 @@
+uid,created_at,updated_at,deleted_at,situation,score
+rotation-different-family,2026-08-10 09:47:53.589862+00:00,,,DIFFERENT_FAMILY,2
+rotation-fallow,2026-08-10 09:47:53.589862+00:00,,,FALLOW,1
+rotation-same-family,2026-08-10 09:47:53.589862+00:00,,,SAME_FAMILY,0

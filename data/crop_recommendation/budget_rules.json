@@ -1,0 +1,110 @@
+[
+  {
+    "uid": "budget-b1-low",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "budget_bucket": "B1",
+    "cost_class": "LOW",
+    "score": 2
+  },
+  {
+    "uid": "budget-b1-medium",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "budget_bucket": "B1",
+    "cost_class": "MEDIUM",
+    "score": 1
+  },
+  {
+    "uid": "budget-b1-high",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "budget_bucket": "B1",
+    "cost_class": "HIGH",
+    "score": 0
+  },
+  {
+    "uid": "budget-b2-low",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "budget_bucket": "B2",
+    "cost_class": "LOW",
+    "score": 2
+  },
+  {
+    "uid": "budget-b2-medium",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "budget_bucket": "B2",
+    "cost_class": "MEDIUM",
+    "score": 2
+  },
+  {
+    "uid": "budget-b2-high",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "budget_bucket": "B2",
+    "cost_class": "HIGH",
+    "score": 1
+  },
+  {
+    "uid": "budget-b3-low",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "budget_bucket": "B3",
+    "cost_class": "LOW",
+    "score": 2
+  },
+  {
+    "uid": "budget-b3-medium",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "budget_bucket": "B3",
+    "cost_class": "MEDIUM",
+    "score": 2
+  },
+  {
+    "uid": "budget-b3-high",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "budget_bucket": "B3",
+    "cost_class": "HIGH",
+    "score": 2
+  },
+  {
+    "uid": "budget-b4-low",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "budget_bucket": "B4",
+    "cost_class": "LOW",
+    "score": 2
+  },
+  {
+    "uid": "budget-b4-medium",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "budget_bucket": "B4",
+    "cost_class": "MEDIUM",
+    "score": 2
+  },
+  {
+    "uid": "budget-b4-high",
+    "created_at": "2026-08-10T09:47:53.589862+00:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "budget_bucket": "B4",
+    "cost_class": "HIGH",
+    "score": 2
+  }
+]

@@ -1,0 +1,4 @@
+[
+  {"name": "key:auth", "description": null, "type": "api_scope", "uid": "scopes_10a2527c-eabe-4e2b-8fa9-8cc155658a24", "created_at": "2026-02-13T07:53:12.774119+00:00", "updated_at": null, "deleted_at": null},
+  {"name": "users:read", "description": null, "type": "api_scope", "uid": "scopes_637c684d-cbc1-4e9d-a126-20b097813185", "created_at": "2026-02-13T07:53:12.794315+00:00", "updated_at": null, "deleted_at": null}
+]

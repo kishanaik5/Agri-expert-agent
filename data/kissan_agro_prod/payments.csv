@@ -1,0 +1,1 @@
+user_uid,cf_order_id,cf_payment_session_id,order_uid,cf_payment_id,order_amount,order_currency,order_status,context_id,context_type,payment_method,meta,uid,created_at,updated_at,deleted_at

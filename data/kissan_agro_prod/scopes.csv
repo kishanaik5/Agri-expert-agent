@@ -1,0 +1,3 @@
+name,description,type,uid,created_at,updated_at,deleted_at
+key:auth,,api_scope,scopes_10a2527c-eabe-4e2b-8fa9-8cc155658a24,2026-02-13 07:53:12.774119+00:00,,
+users:read,,api_scope,scopes_637c684d-cbc1-4e9d-a126-20b097813185,2026-02-13 07:53:12.794315+00:00,,

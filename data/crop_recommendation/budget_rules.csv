@@ -1,0 +1,13 @@
+uid,created_at,updated_at,deleted_at,budget_bucket,cost_class,score
+budget-b1-low,2026-08-10 09:47:53.589862+00:00,,,B1,LOW,2
+budget-b1-medium,2026-08-10 09:47:53.589862+00:00,,,B1,MEDIUM,1
+budget-b1-high,2026-08-10 09:47:53.589862+00:00,,,B1,HIGH,0
+budget-b2-low,2026-08-10 09:47:53.589862+00:00,,,B2,LOW,2
+budget-b2-medium,2026-08-10 09:47:53.589862+00:00,,,B2,MEDIUM,2
+budget-b2-high,2026-08-10 09:47:53.589862+00:00,,,B2,HIGH,1
+budget-b3-low,2026-08-10 09:47:53.589862+00:00,,,B3,LOW,2
+budget-b3-medium,2026-08-10 09:47:53.589862+00:00,,,B3,MEDIUM,2
+budget-b3-high,2026-08-10 09:47:53.589862+00:00,,,B3,HIGH,2
+budget-b4-low,2026-08-10 09:47:53.589862+00:00,,,B4,LOW,2
+budget-b4-medium,2026-08-10 09:47:53.589862+00:00,,,B4,MEDIUM,2
+budget-b4-high,2026-08-10 09:47:53.589862+00:00,,,B4,HIGH,2

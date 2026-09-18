@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+.env
+data/task_results/
+
+# Large raw datasets (> 50MB)
+data/kissan_agro_prod/farm_reports.*
+data/kissan_agro_prod/agro_forecasting.*
+data/kissan_cv/translated_analysis_report.*
+data/kissan_cv/cv_kb_version2.*
+data/kissan_cv/cv_kb_translation.*
+
+# Docker volumes & IDE
+neo4j_data/
+neo4j_logs/
+neo4j_import/
+neo4j_plugins/
+rabbitmq_data/
+.vscode/
+.idea/
