@@ -8,7 +8,8 @@ from src.api.types import (
     AdvisoryResultType,
     TreatmentProtocolType,
     TaskStatusType,
-    TaskSubmissionResponseType
+    TaskSubmissionResponseType,
+    CopilotChatResponseType
 )
 from src.graph.client import get_graph_client
 from src.graph.embedded_graph import get_embedded_graph
@@ -17,12 +18,50 @@ from src.agent.tools import (
     search_disease_and_treatments,
     get_zone_suitability_by_pincode
 )
+from src.agent.nlp_extractor import extract_entities_from_text
 from src.agent.workflow import run_advisory_agent
 from src.queue.broker import publish_diagnostic_task
 from src.queue.worker import get_task_result
 
 @strawberry.type
 class Query:
+    @strawberry.field
+    def ask_copilot(self, query: str) -> CopilotChatResponseType:
+        """
+        Conversational NLP interaction endpoint.
+        Example: 'give treatment plan for cotton crop and leaf blight disease'
+        """
+        nlp = extract_entities_from_text(query)
+        result = run_advisory_agent({"query": query})
+        
+        treatment_list = [
+            TreatmentProtocolType(
+                disease=tp.get("disease", ""),
+                protocol=tp.get("protocol", ""),
+                type=tp.get("type", "Treatment Plan")
+            )
+            for tp in result.get("treatment_protocols", [])
+        ]
+        
+        adv = result.get("actionable_advisory", "")
+        
+        return CopilotChatResponseType(
+            intent=nlp.get("intent", "treatment_plan"),
+            crop=result.get("identified_crop"),
+            symptoms=result.get("symptoms"),
+            diagnosis=result.get("diagnosis_summary", ""),
+            confidence_score=result.get("confidence_score", 0.0),
+            treatments=treatment_list,
+            preventive_actions=result.get("preventive_actions", []),
+            advisory=adv,
+            llm_response=adv
+        )
+
+    @strawberry.field
+    def chat(self, message: str) -> CopilotChatResponseType:
+        """Alias for askCopilot."""
+        return self.ask_copilot(query=message)
+
     @strawberry.field
     def crops(self, limit: Optional[int] = 20) -> List[CropType]:
         """List master crops available in the knowledge graph."""
@@ -171,6 +210,35 @@ class Query:
 @strawberry.type
 class Mutation:
     @strawberry.mutation
+    def ask_copilot(self, query: str) -> CopilotChatResponseType:
+        """Conversational NLP interaction mutation."""
+        nlp = extract_entities_from_text(query)
+        result = run_advisory_agent({"query": query})
+        
+        treatment_list = [
+            TreatmentProtocolType(
+                disease=tp.get("disease", ""),
+                protocol=tp.get("protocol", ""),
+                type=tp.get("type", "Treatment Plan")
+            )
+            for tp in result.get("treatment_protocols", [])
+        ]
+        
+        adv = result.get("actionable_advisory", "")
+        
+        return CopilotChatResponseType(
+            intent=nlp.get("intent", "treatment_plan"),
+            crop=result.get("identified_crop"),
+            symptoms=result.get("symptoms"),
+            diagnosis=result.get("diagnosis_summary", ""),
+            confidence_score=result.get("confidence_score", 0.0),
+            treatments=treatment_list,
+            preventive_actions=result.get("preventive_actions", []),
+            advisory=adv,
+            llm_response=adv
+        )
+
+    @strawberry.mutation
     def submit_diagnostic_task(
         self, 
         crop_name: Optional[str] = None, 
@@ -199,7 +267,6 @@ class Mutation:
             task_id = publish_diagnostic_task(payload)
             msg = f"Diagnostic job submitted to RabbitMQ queue for crop '{target_crop}'."
         except Exception as e:
-            # Fallback to direct async task processing if broker offline
             from src.queue.worker import save_task_result
             import uuid, time
             task_id = f"task_{uuid.uuid4().hex[:12]}"

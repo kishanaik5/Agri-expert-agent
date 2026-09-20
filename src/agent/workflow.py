@@ -1,6 +1,7 @@
-from typing import Dict, Any
+from typing import Dict, Any, List
 from langgraph.graph import StateGraph, END
 from src.agent.state import AgentState
+from src.agent.nlp_extractor import extract_entities_from_text
 from src.agent.tools import (
     get_crop_profile, 
     search_disease_and_treatments, 
@@ -9,24 +10,26 @@ from src.agent.tools import (
 )
 
 def entity_extractor_node(state: AgentState) -> Dict[str, Any]:
-    """Extracts entities (crop, symptoms, pincode, weather) from query or direct fields."""
-    crop = state.get("crop_name")
-    symptoms = state.get("symptoms") or state.get("query", "")
-    pincode = state.get("pincode")
+    """Extracts entities (crop, symptoms, pincode, weather, intent) from natural language query or direct fields."""
+    raw_query = state.get("query") or state.get("raw_text")
     
-    # Simple fallback parser if raw query provided
-    query = state.get("query", "")
-    if not crop and query:
-        words = [w.strip(" ,.!?") for w in query.split()]
-        for w in words:
-            if w.title() in ["Wheat", "Rice", "Cotton", "Mustard", "Soybean", "Maize", "Groundnut", "Chickpea", "Potato", "Tomato", "Sugarcane", "Bajra"]:
-                crop = w.title()
-                break
-                
+    if raw_query and (not state.get("crop_name") or not state.get("symptoms")):
+        nlp_res = extract_entities_from_text(raw_query)
+        crop = state.get("crop_name") or nlp_res.get("crop_name")
+        symptoms = state.get("symptoms") or nlp_res.get("symptoms")
+        pincode = state.get("pincode") or nlp_res.get("pincode")
+        soil_class = state.get("soil_class") or nlp_res.get("soil_class")
+    else:
+        crop = state.get("crop_name")
+        symptoms = state.get("symptoms") or state.get("query", "")
+        pincode = state.get("pincode")
+        soil_class = state.get("soil_class")
+
     return {
         "identified_crop": crop,
         "symptoms": symptoms,
-        "pincode": pincode
+        "pincode": pincode,
+        "soil_class": soil_class
     }
 
 def graph_traversal_node(state: AgentState) -> Dict[str, Any]:
@@ -58,9 +61,75 @@ def graph_traversal_node(state: AgentState) -> Dict[str, Any]:
         "weather_advisories": weather_rules
     }
 
+def format_conversational_llm_response(
+    crop: str,
+    symptoms: str,
+    disease_name: str,
+    pathogen: str,
+    confidence: float,
+    treatments: List[Dict[str, Any]],
+    preventions: List[str],
+    weather_adv: List[Dict[str, Any]],
+    zone_recs: List[Dict[str, Any]]
+) -> str:
+    """Formats a polished, neat LLM-style advisory response."""
+    lines = []
+    lines.append(f"🌱 **Agri-Expert Copilot Advisory**\n")
+    lines.append(f"Hello! Here is the tailored diagnostic analysis and actionable treatment plan for your **{crop}** crop:\n")
+    lines.append("---\n")
+    
+    # 1. Diagnosis
+    lines.append("### 🔍 **Diagnosis & Pathology**")
+    if disease_name != "General Health Assessment":
+        lines.append(f"* **Likely Condition:** **{disease_name}**")
+        if pathogen:
+            lines.append(f"* **Causal Organism / Pathogen:** *{pathogen}*")
+        lines.append(f"* **Diagnostic Confidence:** `{int(confidence * 100)}%`")
+    else:
+        lines.append(f"* **Assessment:** Routine agronomic monitoring. No severe pathogen outbreak identified for *'{symptoms}'*.")
+    lines.append("")
+    
+    # 2. Treatment Protocols
+    lines.append("### 💊 **Recommended Treatment Plan & Formulations**")
+    if treatments:
+        for idx, t in enumerate(treatments, 1):
+            protocol_text = t.get("protocol", "").strip()
+            lines.append(f"**Step {idx}: Application for {t.get('disease')}**")
+            lines.append(f"> 🧪 *Protocol:* {protocol_text}\n")
+    else:
+        lines.append("* Apply balanced micronutrients (Zinc, Boron) and maintain regular irrigation intervals.")
+        lines.append("* If localized spotting intensifies, spray broad-spectrum preventive fungicide (e.g., Mancozeb @ 2 g/L).")
+    lines.append("")
+
+    # 3. Preventive Cultural Management
+    lines.append("### 🛡️ **Preventative & Cultural Practices**")
+    for p in preventions:
+        lines.append(f"* {p}")
+    lines.append("")
+
+    # 4. Weather & Field Advice
+    if weather_adv:
+        lines.append("### 🌦️ **Operational & Weather Considerations**")
+        for w in weather_adv[:2]:
+            lines.append(f"* **{w.get('advisory_type', 'Operational').title()}:** {w.get('advisory')}")
+        lines.append("")
+
+    # 5. Alternative Regional Crops
+    if zone_recs:
+        lines.append("### 🗺️ **High-Suitability Regional Crops**")
+        for z in zone_recs[:3]:
+            lines.append(f"* **{z.get('crop')}** — Agro-Climatic Match Score: `{z.get('combined_score', 0):.2f}`")
+        lines.append("")
+
+    lines.append("---")
+    lines.append("💡 *Tip: For best absorption, spray during early morning or late afternoon when wind speeds are low and temperatures are moderate.*")
+    
+    return "\n".join(lines)
+
 def advisory_synthesizer_node(state: AgentState) -> Dict[str, Any]:
-    """Synthesizes deterministic structured advisory based on knowledge graph context."""
+    """Synthesizes structured data and clean conversational LLM response."""
     crop = state.get("identified_crop") or "Crop"
+    symptoms = state.get("symptoms") or "general check"
     diseases = state.get("identified_diseases", [])
     stages = state.get("growth_stages", [])
     weather_adv = state.get("weather_advisories", [])
@@ -86,51 +155,40 @@ def advisory_synthesizer_node(state: AgentState) -> Dict[str, Any]:
                 "type": "Chemical / Biological Spray"
             })
             
-        preventions.append("Isolate affected plants and remove diseased foliage.")
-        preventions.append("Avoid overhead irrigation to minimize leaf wetness.")
-        preventions.append("Maintain recommended plant spacing for optimal aeration.")
+        preventions.append("Isolate and rogue out severely infected plant parts.")
+        preventions.append("Avoid overhead sprinkler irrigation to minimize canopy wetness.")
+        preventions.append("Maintain optimal plant spacing for healthy airflow and sunlight penetration.")
+        preventions.append("Destroy crop residue post-harvest to break pathogen overwintering cycles.")
         
         confidence = 0.92 if crop and treat_list else 0.75
     else:
-        diag_summary = f"No specific pathogen match for '{state.get('symptoms', '')}' under {crop}. Routine monitoring recommended."
+        dis_name = "General Health Assessment"
+        pathogen = ""
+        diag_summary = f"No severe pathogen match detected for '{symptoms}' under {crop}. Routine agronomic monitoring recommended."
         confidence = 0.50
-        preventions.append("Ensure balanced NPK fertilization.")
-        preventions.append("Check soil moisture levels before next irrigation cycle.")
+        preventions.append("Maintain balanced NPK fertilizer schedule.")
+        preventions.append("Inspect soil moisture levels before initiating irrigation.")
+        preventions.append("Regularly check underleaf surfaces for early pest colonizers.")
 
-    # Weather synthesis
-    weather_notes = []
-    for w in weather_adv:
-        weather_notes.append(f"- [{w.get('advisory_type', 'General').upper()}]: {w.get('advisory')}")
-        
-    actionable = f"### Agronomic Advisory for {crop}\n\n"
-    actionable += f"**Diagnosis:** {diag_summary}\n\n"
-    
-    if treatments:
-        actionable += "#### Recommended Treatments:\n"
-        for t in treatments:
-            actionable += f"* **{t['disease']}**: {t['protocol']}\n"
-        actionable += "\n"
-        
-    if preventions:
-        actionable += "#### Preventive Management:\n"
-        for p in preventions:
-            actionable += f"* {p}\n"
-        actionable += "\n"
-        
-    if weather_notes:
-        actionable += "#### Weather & Field Operational Advice:\n" + "\n".join(weather_notes) + "\n\n"
-        
-    if zone_recs:
-        actionable += "#### Top Recommended Alternative Crops for Region:\n"
-        for z in zone_recs[:3]:
-            actionable += f"* **{z['crop']}** (Suitability: {z.get('combined_score', 0):.2f})\n"
+    # Generate neat LLM-style markdown advisory
+    neat_llm_response = format_conversational_llm_response(
+        crop=crop,
+        symptoms=symptoms,
+        disease_name=dis_name,
+        pathogen=pathogen,
+        confidence=confidence,
+        treatments=treatments,
+        preventions=preventions,
+        weather_adv=weather_adv,
+        zone_recs=zone_recs
+    )
 
     return {
         "confidence_score": confidence,
         "diagnosis_summary": diag_summary,
         "treatment_protocols": treatments,
         "preventive_actions": preventions,
-        "actionable_advisory": actionable.strip()
+        "actionable_advisory": neat_llm_response
     }
 
 def create_advisory_graph():

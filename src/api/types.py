@@ -45,6 +45,18 @@ class AdvisoryResultType:
     actionable_advisory: str
 
 @strawberry.type
+class CopilotChatResponseType:
+    intent: str
+    crop: Optional[str]
+    symptoms: Optional[str]
+    diagnosis: str
+    confidence_score: float
+    treatments: List[TreatmentProtocolType]
+    preventive_actions: List[str]
+    advisory: str
+    llm_response: str
+
+@strawberry.type
 class TaskStatusType:
     task_id: str
     status: str
