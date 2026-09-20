@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agri-Expert AI Copilot | Intelligent Agricultural Advisory</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Markdown parser -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <!-- Styles -->
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body class="dark-theme">
+  <!-- Background glow effects -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
+
+  <div class="app-container">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-icon">
+          <i class="fa-solid fa-seedling"></i>
+        </div>
+        <div class="brand-text">
+          <h2>AgriCopilot<span>.ai</span></h2>
+          <p>Knowledge Graph AI</p>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <button class="nav-item active" data-tab="chat-tab" id="nav-chat">
+          <i class="fa-solid fa-message-bot"></i>
+          <span>AI Advisory Chat</span>
+        </button>
+        <button class="nav-item" data-tab="doctor-tab" id="nav-doctor">
+          <i class="fa-solid fa-stethoscope"></i>
+          <span>Crop Doctor</span>
+        </button>
+        <button class="nav-item" data-tab="stages-tab" id="nav-stages">
+          <i class="fa-solid fa-timeline"></i>
+          <span>Phenology Stages</span>
+        </button>
+        <button class="nav-item" data-tab="zones-tab" id="nav-zones">
+          <i class="fa-solid fa-earth-asia"></i>
+          <span>Zone Suitability</span>
+        </button>
+        <button class="nav-item" data-tab="system-tab" id="nav-system">
+          <i class="fa-solid fa-server"></i>
+          <span>System Topology</span>
+        </button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="status-card">
+          <div class="status-indicator">
+            <span class="status-dot pulse"></span>
+            <span id="backend-status-text">Connected</span>
+          </div>
+          <div class="status-details">
+            <small id="neo4j-status"><i class="fa-solid fa-database"></i> Neo4j Aura: Online</small>
+            <small id="broker-status"><i class="fa-solid fa-bolt"></i> RabbitMQ: Active</small>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- Top Header -->
+      <header class="top-header">
+        <div class="header-left">
+          <h1 id="page-title">🌾 Agri-Expert Conversational Copilot</h1>
+          <p id="page-subtitle">Powered by Neo4j Knowledge Graph, LangGraph Reasoning & RabbitMQ</p>
+        </div>
+        <div class="header-actions">
+          <a href="/graphql" target="_blank" class="btn btn-outline" id="btn-graphql-docs">
+            <i class="fa-solid fa-network-wired"></i> GraphiQL API
+          </a>
+          <button class="btn btn-primary" id="btn-new-chat">
+            <i class="fa-solid fa-plus"></i> New Inquiry
+          </button>
+        </div>
+      </header>
+
+      <!-- TAB 1: AI Chat Assistant -->
+      <section class="tab-content active" id="chat-tab">
+        <div class="chat-container">
+          <!-- Quick Prompt Pills -->
+          <div class="quick-prompts-bar">
+            <span class="quick-label"><i class="fa-solid fa-sparkles"></i> Try asking:</span>
+            <button class="prompt-chip" data-prompt="Give treatment plan for cotton crop and leaf blight disease">
+              🌿 Cotton Leaf Blight
+            </button>
+            <button class="prompt-chip" data-prompt="What should I spray on wheat for yellow stripe rust in pincode 141004?">
+              🌾 Wheat Yellow Rust (141004)
+            </button>
+            <button class="prompt-chip" data-prompt="What are the best suited crops for PIN code 141004 in black soil?">
+              🗺️ Top Crops for Ludhiana (141004)
+            </button>
+            <button class="prompt-chip" data-prompt="How to treat powdery mildew on mustard crop?">
+              🌱 Mustard Powdery Mildew
+            </button>
+          </div>
+
+          <!-- Messages Stream -->
+          <div class="chat-messages" id="chat-messages">
+            <!-- Welcome Bot Message -->
+            <div class="message bot-message">
+              <div class="message-avatar">
+                <i class="fa-solid fa-robot"></i>
+              </div>
+              <div class="message-body">
+                <div class="message-header">
+                  <span class="sender-name">AgriCopilot AI</span>
+                  <span class="message-time">Just now</span>
+                </div>
+                <div class="message-text">
+                  <p>Namaste! I am your <strong>Agri-Expert AI Copilot</strong> connected directly to the <strong>Neo4j Knowledge Graph</strong> covering 164+ crops, 1,900+ disease treatment protocols, and 19,000+ agro-climatic PIN codes.</p>
+                  <p>How can I assist your farm today? You can describe any crop symptom, ask for chemical/biological dosages, or find the most suitable crops for your region.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chat Input Box -->
+          <div class="chat-input-wrapper">
+            <form id="chat-form" class="chat-form">
+              <div class="input-container">
+                <input 
+                  type="text" 
+                  id="user-input" 
+                  placeholder="Ask anything (e.g. 'Give treatment plan for cotton crop and leaf blight disease')..." 
+                  autocomplete="off"
+                  required
+                />
+                <button type="submit" id="btn-send" class="btn-send" title="Send Message">
+                  <i class="fa-solid fa-paper-plane-top"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 2: Crop Doctor & Direct Disease Explorer -->
+      <section class="tab-content" id="doctor-tab">
+        <div class="doctor-container">
+          <div class="search-card">
+            <h3><i class="fa-solid fa-magnifying-glass"></i> Direct Knowledge Graph Disease Lookup</h3>
+            <p>Traverse direct <code>(:Crop)-[:PRONE_TO]->(:Disease)-[:TREATED_BY]->(:Treatment)</code> ontology.</p>
+            <div class="filter-row">
+              <div class="form-group">
+                <label for="doctor-crop-select">Select Crop:</label>
+                <select id="doctor-crop-select" class="form-select">
+                  <option value="Cotton">Cotton</option>
+                  <option value="Wheat">Wheat</option>
+                  <option value="Rice (Paddy)">Rice (Paddy)</option>
+                  <option value="Mustard">Mustard</option>
+                  <option value="Soybean">Soybean</option>
+                  <option value="Potato">Potato</option>
+                  <option value="Tomato">Tomato</option>
+                  <option value="Sugarcane">Sugarcane</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="doctor-symptom-input">Symptom / Disease Filter:</label>
+                <input type="text" id="doctor-symptom-input" class="form-input" placeholder="e.g. blight, rot, rust, mildew..." />
+              </div>
+              <button class="btn btn-primary" id="btn-search-doctor">
+                <i class="fa-solid fa-dna"></i> Query Graph
+              </button>
+            </div>
+          </div>
+
+          <div class="results-grid" id="doctor-results">
+            <!-- Populated dynamically -->
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 3: Phenological Growth Stages -->
+      <section class="tab-content" id="stages-tab">
+        <div class="stages-container">
+          <div class="search-card">
+            <h3><i class="fa-solid fa-timeline"></i> Phenological Growth Timeline Explorer</h3>
+            <p>Inspect stage-by-stage agronomic milestones and duration spans.</p>
+            <div class="filter-row">
+              <div class="form-group">
+                <label for="stages-crop-select">Select Crop:</label>
+                <select id="stages-crop-select" class="form-select">
+                  <option value="Wheat">Wheat</option>
+                  <option value="Cotton">Cotton</option>
+                  <option value="Rice">Rice</option>
+                  <option value="Soybean">Soybean</option>
+                  <option value="Mustard">Mustard</option>
+                  <option value="Maize">Maize</option>
+                </select>
+              </div>
+              <button class="btn btn-primary" id="btn-search-stages">
+                <i class="fa-solid fa-chart-gantt"></i> Load Stages
+              </button>
+            </div>
+          </div>
+
+          <div class="timeline-wrapper" id="stages-timeline">
+            <!-- Populated dynamically -->
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 4: Regional Zone Suitability -->
+      <section class="tab-content" id="zones-tab">
+        <div class="zones-container">
+          <div class="search-card">
+            <h3><i class="fa-solid fa-map-location-dot"></i> Agro-Climatic Zone Suitability Engine</h3>
+            <p>Calculates multi-criteria suitability rankings for Indian PIN codes.</p>
+            <div class="filter-row">
+              <div class="form-group">
+                <label for="zone-pincode-input">Indian PIN Code (6 digits):</label>
+                <input type="text" id="zone-pincode-input" class="form-input" value="141004" maxlength="6" />
+              </div>
+              <div class="form-group">
+                <label for="zone-soil-select">Soil Class (Optional):</label>
+                <select id="zone-soil-select" class="form-select">
+                  <option value="">Any Soil</option>
+                  <option value="1">Class 1: Clayey Soil</option>
+                  <option value="2" selected>Class 2: Black Soil</option>
+                  <option value="3">Class 3: Loamy Soil</option>
+                  <option value="4">Class 4: Sandy Loam</option>
+                </select>
+              </div>
+              <button class="btn btn-primary" id="btn-search-zones">
+                <i class="fa-solid fa-ranking-star"></i> Rank Suited Crops
+              </button>
+            </div>
+          </div>
+
+          <div class="zones-results" id="zone-rankings">
+            <!-- Populated dynamically -->
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 5: System Topology -->
+      <section class="tab-content" id="system-tab">
+        <div class="system-container">
+          <div class="architecture-grid">
+            <div class="arch-card">
+              <div class="arch-icon"><i class="fa-brands fa-neos"></i></div>
+              <h4>Neo4j Knowledge Graph</h4>
+              <p class="arch-status"><span class="status-dot green"></span> Connected (AuraDB)</p>
+              <ul>
+                <li>164 Crop Nodes</li>
+                <li>1,966 Disease-Treatment Edges</li>
+                <li>19,486 Pincodes & AgroZones</li>
+              </ul>
+            </div>
+
+            <div class="arch-card">
+              <div class="arch-icon"><i class="fa-solid fa-diagram-project"></i></div>
+              <h4>LangGraph Reasoning Engine</h4>
+              <p class="arch-status"><span class="status-dot green"></span> Operational</p>
+              <ul>
+                <li>NLP Intent Extractor</li>
+                <li>Multi-hop Cypher Traversal</li>
+                <li>Conversational Synthesizer</li>
+              </ul>
+            </div>
+
+            <div class="arch-card">
+              <div class="arch-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+              <h4>RabbitMQ / CloudAMQP</h4>
+              <p class="arch-status"><span class="status-dot green"></span> Broker Active</p>
+              <ul>
+                <li>Exchange: <code>agri.tasks.exchange</code></li>
+                <li>Queue: <code>agri.queue.diagnostics</code></li>
+                <li>Daemon Worker Consumer</li>
+              </ul>
+            </div>
+
+            <div class="arch-card">
+              <div class="arch-icon"><i class="fa-solid fa-gem"></i></div>
+              <h4>Strawberry GraphQL API</h4>
+              <p class="arch-status"><span class="status-dot green"></span> Port 8000 (FastAPI)</p>
+              <ul>
+                <li>Endpoint: <code>/graphql</code></li>
+                <li>UI Endpoint: <code>/agri-ui</code></li>
+                <li>Real-time Async Task Polling</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- App JavaScript -->
+  <script src="/static/app.js"></script>
+</body>
+</html>

@@ -5,6 +5,11 @@ from src.api.schema import schema
 from src.graph.client import get_graph_client
 from src.queue.broker import init_broker_topology
 
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+import os
+import threading
+
 # Initialize FastAPI App
 app = FastAPI(
     title="Agri-Knowledge Graph Copilot API",
@@ -21,12 +26,29 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Static directory setup
+STATIC_DIR = os.path.join(os.path.dirname(__file__), "..", "static")
+if os.path.exists(STATIC_DIR):
+    app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
+
+# Web UI routes
+@app.get("/agri-ui", response_class=FileResponse)
+@app.get("/ui", response_class=FileResponse)
+def serve_ui():
+    index_path = os.path.join(STATIC_DIR, "index.html")
+    return FileResponse(index_path)
+
 # GraphQL Router with GraphiQL Explorer
 graphql_app = GraphQLRouter(schema)
 app.include_router(graphql_app, prefix="/graphql")
 
 @app.get("/")
-def root_status():
+def root_endpoint():
+    # If browser requests HTML, serve Agri-UI
+    index_path = os.path.join(STATIC_DIR, "index.html")
+    if os.path.exists(index_path):
+        return FileResponse(index_path)
+    
     graph_ok = False
     try:
         graph_ok = get_graph_client().verify_connectivity()
@@ -36,12 +58,26 @@ def root_status():
     return {
         "service": "Agri-Knowledge Graph Copilot API",
         "status": "healthy",
+        "ui_endpoint": "/agri-ui",
         "graphql_endpoint": "/graphql",
         "neo4j_connected": graph_ok
     }
 
-import threading
-import os
+@app.get("/api/status")
+def api_status():
+    graph_ok = False
+    try:
+        graph_ok = get_graph_client().verify_connectivity()
+    except Exception:
+        pass
+
+    return {
+        "service": "Agri-Knowledge Graph Copilot API",
+        "status": "healthy",
+        "ui_endpoint": "/agri-ui",
+        "graphql_endpoint": "/graphql",
+        "neo4j_connected": graph_ok
+    }
 
 @app.on_event("startup")
 def startup_event():
