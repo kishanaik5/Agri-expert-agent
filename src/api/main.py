@@ -40,12 +40,22 @@ def root_status():
         "neo4j_connected": graph_ok
     }
 
+import threading
+import os
+
 @app.on_event("startup")
 def startup_event():
     try:
         init_broker_topology()
     except Exception as e:
         print(f"Warning: RabbitMQ topology init failed on startup: {e}")
+
+    # Launch in-process consumer worker daemon for 100% free single-service hosting
+    if os.getenv("ENABLE_WORKER_THREAD", "true").lower() in ("true", "1", "yes"):
+        from src.queue.worker import start_worker
+        worker_thread = threading.Thread(target=start_worker, daemon=True, name="AgriWorkerThread")
+        worker_thread.start()
+        print("[Startup] Launched background RabbitMQ LangGraph worker thread.")
 
 if __name__ == "__main__":
     import uvicorn
