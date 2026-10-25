@@ -20,3 +20,4 @@ neo4j_plugins/
 rabbitmq_data/
 .vscode/
 .idea/
+scratch/

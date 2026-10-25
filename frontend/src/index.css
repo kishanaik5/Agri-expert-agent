@@ -1,0 +1,93 @@
+/* ==========================================================================
+   AgriCopilot AI - Design System Tokens & Base Styles
+   Theme: Zinc Dark (Default) & Light Theme
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+  /* Dark Zinc Theme */
+  --bg: #09090b;
+  --fg: #fafafa;
+  --card: #121215;
+  --card-fg: #fafafa;
+  --card-hover: #18181b;
+  
+  --primary: #10b981; /* Emerald 500 */
+  --primary-hover: #059669; /* Emerald 600 */
+  --primary-subtle: rgba(16, 185, 129, 0.12);
+  --primary-fg: #ffffff;
+
+  --secondary: #27272a;
+  --secondary-fg: #f4f4f5;
+  --secondary-hover: #3f3f46;
+
+  --muted: #1c1c20;
+  --muted-fg: #a1a1aa;
+
+  --border: #27272a;
+  --input: #18181b;
+  --ring: #10b981;
+
+  --destructive: #ef4444;
+  --warning: #f59e0b;
+  --info: #06b6d4;
+  --blue: #3b82f6;
+
+  --radius: 8px;
+  --radius-sm: 6px;
+  --radius-full: 9999px;
+
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+body.light-theme {
+  --bg: #f8fafc;
+  --fg: #0f172a;
+  --card: #ffffff;
+  --card-fg: #0f172a;
+  --card-hover: #f1f5f9;
+
+  --primary: #059669;
+  --primary-hover: #047857;
+  --primary-subtle: rgba(5, 150, 105, 0.1);
+  --primary-fg: #ffffff;
+
+  --secondary: #e2e8f0;
+  --secondary-fg: #0f172a;
+  --secondary-hover: #cbd5e1;
+
+  --muted: #f1f5f9;
+  --muted-fg: #64748b;
+
+  --border: #e2e8f0;
+  --input: #ffffff;
+  --ring: #059669;
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg);
+  color: var(--fg);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+}

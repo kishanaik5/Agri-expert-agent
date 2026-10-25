@@ -3,305 +3,467 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Agri-Expert AI Copilot | Intelligent Agricultural Advisory</title>
-  <!-- Google Fonts -->
+  <title>AgriCopilot AI | Advanced Agricultural Decision Intelligence Portal</title>
+  
+  <!-- Fonts: Inter & JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
   <!-- Markdown parser -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <!-- FontAwesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
   <!-- Styles -->
   <link rel="stylesheet" href="/static/style.css" />
 </head>
-<body class="dark-theme">
-  <!-- Background glow effects -->
-  <div class="glow-orb orb-1"></div>
-  <div class="glow-orb orb-2"></div>
-  <div class="glow-orb orb-3"></div>
+<body>
 
-  <div class="app-container">
-    <!-- Sidebar Navigation -->
-    <aside class="sidebar">
-      <div class="brand">
-        <div class="brand-icon">
-          <i class="fa-solid fa-seedling"></i>
+  <!-- 1. Top Navigation Bar -->
+  <header class="header-navbar">
+    <div class="header-container">
+      
+      <!-- Brand & Metadata -->
+      <div class="brand-section">
+        <div class="brand-icon-wrapper">
+          <i data-lucide="sprout" style="width: 22px; height: 22px;"></i>
         </div>
-        <div class="brand-text">
-          <h2>AgriCopilot<span>.ai</span></h2>
-          <p>Knowledge Graph AI</p>
+        <div class="brand-titles">
+          <div class="brand-name">
+            AgriCopilot<span style="color: hsl(var(--primary));">.ai</span>
+            <span class="brand-tag">Multimodal Decision Intelligence</span>
+          </div>
+          <span class="brand-subtitle">Connected Agricultural Knowledge Graph & Agronomic Copilot</span>
         </div>
       </div>
 
-      <nav class="nav-menu">
-        <button class="nav-item active" data-tab="chat-tab" id="nav-chat">
-          <i class="fa-solid fa-message-bot"></i>
-          <span>AI Advisory Chat</span>
-        </button>
-        <button class="nav-item" data-tab="doctor-tab" id="nav-doctor">
-          <i class="fa-solid fa-stethoscope"></i>
-          <span>Crop Doctor</span>
-        </button>
-        <button class="nav-item" data-tab="stages-tab" id="nav-stages">
-          <i class="fa-solid fa-timeline"></i>
-          <span>Phenology Stages</span>
-        </button>
-        <button class="nav-item" data-tab="zones-tab" id="nav-zones">
-          <i class="fa-solid fa-earth-asia"></i>
-          <span>Zone Suitability</span>
-        </button>
-        <button class="nav-item" data-tab="system-tab" id="nav-system">
-          <i class="fa-solid fa-server"></i>
-          <span>System Topology</span>
-        </button>
-      </nav>
-
-      <div class="sidebar-footer">
-        <div class="status-card">
-          <div class="status-indicator">
-            <span class="status-dot pulse"></span>
-            <span id="backend-status-text">Connected</span>
-          </div>
-          <div class="status-details">
-            <small id="neo4j-status"><i class="fa-solid fa-database"></i> Neo4j Aura: Online</small>
-            <small id="broker-status"><i class="fa-solid fa-bolt"></i> RabbitMQ: Active</small>
-          </div>
+      <!-- Live Infrastructure Status Badges -->
+      <div class="header-status-strip">
+        <div class="status-badge live" id="badge-api">
+          <span class="status-dot pulse"></span>
+          <span id="backend-status-text">FastAPI: Active</span>
+        </div>
+        <div class="status-badge live" id="badge-llm">
+          <i data-lucide="sparkles" style="width: 13px; height: 13px; color: #10b981;"></i>
+          <span>Gemini 2.5 Flash</span>
+        </div>
+        <div class="status-badge" id="badge-graph">
+          <i data-lucide="database" style="width: 13px; height: 13px;"></i>
+          <span>Knowledge Graph</span>
         </div>
       </div>
-    </aside>
 
-    <!-- Main Content Area -->
-    <main class="main-content">
-      <!-- Top Header -->
-      <header class="top-header">
-        <div class="header-left">
-          <h1 id="page-title">🌾 Agri-Expert Conversational Copilot</h1>
-          <p id="page-subtitle">Powered by Neo4j Knowledge Graph, LangGraph Reasoning & RabbitMQ</p>
+      <!-- Quick Action Controls -->
+      <div class="header-actions">
+        <a href="/graphql" target="_blank" class="btn btn-outline btn-sm" id="btn-graphql-docs">
+          <i data-lucide="terminal" style="width: 14px; height: 14px;"></i>
+          <span>GraphiQL</span>
+        </a>
+        <button class="btn btn-ghost btn-sm" id="btn-theme-toggle" title="Toggle Light/Dark Theme">
+          <i data-lucide="sun" id="theme-icon" style="width: 16px; height: 16px;"></i>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- 2. Executive KPI & Graph Volume Bar -->
+  <section class="kpi-bar">
+    <div class="kpi-container">
+      <div class="kpi-metrics-group">
+        <div class="kpi-item">
+          <i data-lucide="leaf" style="width: 14px; height: 14px; color: hsl(var(--primary));"></i>
+          <span>Crops Mapped:</span>
+          <span class="kpi-value" id="kpi-crops">164 Species</span>
         </div>
-        <div class="header-actions">
-          <a href="/graphql" target="_blank" class="btn btn-outline" id="btn-graphql-docs">
-            <i class="fa-solid fa-network-wired"></i> GraphiQL API
-          </a>
-          <button class="btn btn-primary" id="btn-new-chat">
-            <i class="fa-solid fa-plus"></i> New Inquiry
-          </button>
+        <div class="kpi-item">
+          <i data-lucide="shield-alert" style="width: 14px; height: 14px; color: #f59e0b;"></i>
+          <span>Disease & Pest Profiles:</span>
+          <span class="kpi-value">3,083 Protocols</span>
         </div>
-      </header>
+        <div class="kpi-item">
+          <i data-lucide="map-pin" style="width: 14px; height: 14px; color: #3b82f6;"></i>
+          <span>PIN Codes Mapped:</span>
+          <span class="kpi-value">19,486 PINs (15 Zones)</span>
+        </div>
+        <div class="kpi-item">
+          <i data-lucide="droplet" style="width: 14px; height: 14px; color: #06b6d4;"></i>
+          <span>District Groundwater:</span>
+          <span class="kpi-value">1,347 Outlooks</span>
+        </div>
+        <div class="kpi-item">
+          <i data-lucide="sliders" style="width: 14px; height: 14px; color: #a855f7;"></i>
+          <span>Suitability Model:</span>
+          <span class="kpi-value">6-Factor Weighted</span>
+        </div>
+      </div>
+      <div class="tester-mode-badge">
+        <i data-lucide="check-circle-2" style="width: 13px; height: 13px;"></i>
+        <span>Agronomist Verified</span>
+      </div>
+    </div>
+  </section>
 
-      <!-- TAB 1: AI Chat Assistant -->
-      <section class="tab-content active" id="chat-tab">
-        <div class="chat-container">
-          <!-- Quick Prompt Pills -->
-          <div class="quick-prompts-bar">
-            <span class="quick-label"><i class="fa-solid fa-sparkles"></i> Try asking:</span>
-            <button class="prompt-chip" data-prompt="Give treatment plan for cotton crop and leaf blight disease">
-              🌿 Cotton Leaf Blight
-            </button>
-            <button class="prompt-chip" data-prompt="What should I spray on wheat for yellow stripe rust in pincode 141004?">
-              🌾 Wheat Yellow Rust (141004)
-            </button>
-            <button class="prompt-chip" data-prompt="What are the best suited crops for PIN code 141004 in black soil?">
-              🗺️ Top Crops for Ludhiana (141004)
-            </button>
-            <button class="prompt-chip" data-prompt="How to treat powdery mildew on mustard crop?">
-              🌱 Mustard Powdery Mildew
-            </button>
-          </div>
+  <!-- 3. Main Application Container -->
+  <main class="main-wrapper">
 
-          <!-- Messages Stream -->
+    <!-- One-Click Preset Scenarios Strip -->
+    <div class="presets-banner">
+      <div class="presets-label">
+        <i data-lucide="sparkles" style="width: 15px; height: 15px; color: hsl(var(--primary));"></i>
+        <span>Domain Scenarios:</span>
+      </div>
+      <div class="preset-pills-list">
+        <button class="preset-pill" data-prompt="Give complete treatment plan for cotton crop and leaf blight disease with Day 1, 2, 5 checklist and revenue loss per acre">
+          🌿 Cotton Leaf Blight Protocol
+        </button>
+        <button class="preset-pill" data-prompt="What should I spray on wheat for yellow stripe rust in pincode 141004?">
+          🌾 Wheat Yellow Rust (141004)
+        </button>
+        <button class="preset-pill" data-prompt="Calculate best suited crops for PIN code 141004 in black soil during Kharif season with surface irrigation">
+          🗺️ Ludhiana 6-Factor Suitability
+        </button>
+        <button class="preset-pill" data-prompt="Show groundwater status, reservoir levels, and crops to avoid for pincode 587111">
+          💧 Bagalkote Water Outlook (587111)
+        </button>
+        <button class="preset-pill" data-prompt="Provide full phenological growth stages, critical moisture milestones, and vulnerable pests for rice">
+          🌾 Rice Growth Stages & Pests
+        </button>
+        <button class="preset-pill" data-prompt="How to treat powdery mildew on mustard with biological and chemical remedies?">
+          🌱 Mustard Powdery Mildew
+        </button>
+      </div>
+    </div>
+
+    <!-- Navigation Tabs Strip -->
+    <div class="tabs-navigation-wrapper">
+      <div class="tabs-list">
+        <button class="tabs-trigger active" data-tab="tab-chat" id="tab-btn-chat">
+          <i data-lucide="message-square" style="width: 15px; height: 15px;"></i>
+          <span>AI Advisory Copilot</span>
+        </button>
+        <button class="tabs-trigger" data-tab="tab-doctor" id="tab-btn-doctor">
+          <i data-lucide="stethoscope" style="width: 15px; height: 15px;"></i>
+          <span>Crop Doctor Catalog</span>
+        </button>
+        <button class="tabs-trigger" data-tab="tab-recommendation" id="tab-btn-recommendation">
+          <i data-lucide="sliders" style="width: 15px; height: 15px;"></i>
+          <span>6-Factor Suitability Wizard</span>
+        </button>
+        <button class="tabs-trigger" data-tab="tab-phenology" id="tab-btn-phenology">
+          <i data-lucide="calendar" style="width: 15px; height: 15px;"></i>
+          <span>Phenology & Crop Calendar</span>
+        </button>
+        <button class="tabs-trigger" data-tab="tab-groundwater" id="tab-btn-groundwater">
+          <i data-lucide="droplet" style="width: 15px; height: 15px;"></i>
+          <span>District Groundwater Outlook</span>
+        </button>
+      </div>
+
+      <div style="display: flex; gap: 0.5rem;">
+        <button class="btn btn-secondary btn-sm" id="btn-clear-chat" title="Clear Conversation">
+          <i data-lucide="rotate-ccw" style="width: 14px; height: 14px;"></i>
+          <span>New Session</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- =========================================================================
+         TAB 1: AI ADVISORY COPILOT (CHAT STREAM & VISUAL DIAGNOSTIC INSPECTOR)
+         ========================================================================= -->
+    <section class="tab-content active" id="tab-chat">
+      <div class="chat-layout-grid">
+        
+        <!-- Left: Chat Stream & Input -->
+        <div class="chat-panel">
           <div class="chat-messages" id="chat-messages">
-            <!-- Welcome Bot Message -->
+            <!-- Bot Initial Greeting -->
             <div class="message bot-message">
               <div class="message-avatar">
-                <i class="fa-solid fa-robot"></i>
+                <i data-lucide="bot" style="width: 16px; height: 16px;"></i>
               </div>
-              <div class="message-body">
-                <div class="message-header">
-                  <span class="sender-name">AgriCopilot AI</span>
-                  <span class="message-time">Just now</span>
+              <div class="message-content-wrapper">
+                <div class="message-meta">
+                  <span style="font-weight: 600; color: hsl(var(--foreground));">AgriCopilot AI</span>
+                  <span>Domain Expert Engine Ready</span>
                 </div>
-                <div class="message-text">
-                  <p>Namaste! I am your <strong>Agri-Expert AI Copilot</strong> connected directly to the <strong>Neo4j Knowledge Graph</strong> covering 164+ crops, 1,900+ disease treatment protocols, and 19,000+ agro-climatic PIN codes.</p>
-                  <p>How can I assist your farm today? You can describe any crop symptom, ask for chemical/biological dosages, or find the most suitable crops for your region.</p>
+                <div class="message-bubble">
+                  <p>Welcome! I am your <strong>Agri-Expert Decision Copilot</strong>, connected directly to <strong>164 master crop ontologies</strong>, <strong>3,083 multi-stage disease & pest protocols</strong>, and <strong>19,486 Indian regional agro-climatic zones</strong>.</p>
+                  <p>Ask any agronomic question or select a scenario above. I provide structured, stage-by-stage intervention plans, chemical & biological spray dosages, revenue loss estimates, and regional groundwater advisories.</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Chat Input Box -->
-          <div class="chat-input-wrapper">
+          <!-- Chat Form -->
+          <div class="chat-input-box">
             <form id="chat-form" class="chat-form">
-              <div class="input-container">
-                <input 
-                  type="text" 
-                  id="user-input" 
-                  placeholder="Ask anything (e.g. 'Give treatment plan for cotton crop and leaf blight disease')..." 
-                  autocomplete="off"
-                  required
-                />
-                <button type="submit" id="btn-send" class="btn-send" title="Send Message">
-                  <i class="fa-solid fa-paper-plane-top"></i>
-                </button>
-              </div>
+              <input 
+                type="text" 
+                id="user-input" 
+                class="form-input"
+                placeholder="Ask any crop, symptom, chemical dosage, 6-factor suitability, or PIN code water query..." 
+                autocomplete="off"
+                required
+              />
+              <button type="submit" id="btn-send" class="btn btn-primary" title="Send Query">
+                <i data-lucide="send" style="width: 15px; height: 15px;"></i>
+                <span>Ask Copilot</span>
+              </button>
             </form>
           </div>
         </div>
-      </section>
 
-      <!-- TAB 2: Crop Doctor & Direct Disease Explorer -->
-      <section class="tab-content" id="doctor-tab">
-        <div class="doctor-container">
-          <div class="search-card">
-            <h3><i class="fa-solid fa-magnifying-glass"></i> Direct Knowledge Graph Disease Lookup</h3>
-            <p>Traverse direct <code>(:Crop)-[:PRONE_TO]->(:Disease)-[:TREATED_BY]->(:Treatment)</code> ontology.</p>
-            <div class="filter-row">
-              <div class="form-group">
-                <label for="doctor-crop-select">Select Crop:</label>
-                <select id="doctor-crop-select" class="form-select">
-                  <option value="Cotton">Cotton</option>
-                  <option value="Wheat">Wheat</option>
-                  <option value="Rice (Paddy)">Rice (Paddy)</option>
-                  <option value="Mustard">Mustard</option>
-                  <option value="Soybean">Soybean</option>
-                  <option value="Potato">Potato</option>
-                  <option value="Tomato">Tomato</option>
-                  <option value="Sugarcane">Sugarcane</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="doctor-symptom-input">Symptom / Disease Filter:</label>
-                <input type="text" id="doctor-symptom-input" class="form-input" placeholder="e.g. blight, rot, rust, mildew..." />
-              </div>
-              <button class="btn btn-primary" id="btn-search-doctor">
-                <i class="fa-solid fa-dna"></i> Query Graph
-              </button>
+        <!-- Right: Diagnostic Inspector & Telemetry -->
+        <aside class="inspector-panel">
+          <div class="inspector-card">
+            <div class="inspector-header">
+              <span><i data-lucide="activity" style="width: 14px; height: 14px; vertical-align: middle; margin-right: 4px; color: hsl(var(--primary));"></i> Query Telemetry</span>
+              <span class="status-badge" style="padding: 0.15rem 0.45rem; font-size: 0.7rem;" id="inspector-status-badge">Idle</span>
+            </div>
+            
+            <div class="inspector-row">
+              <span class="inspector-label">Identified Crop:</span>
+              <span class="inspector-value" id="inspector-crop">—</span>
+            </div>
+            <div class="inspector-row">
+              <span class="inspector-label">Diagnostic Confidence:</span>
+              <span class="inspector-value" id="inspector-confidence" style="color: hsl(var(--primary)); font-weight: 700;">—</span>
+            </div>
+            <div class="inspector-row">
+              <span class="inspector-label">Detected Intent:</span>
+              <span class="inspector-value" id="inspector-intent">—</span>
+            </div>
+            <div class="inspector-row">
+              <span class="inspector-label">Reasoning Engine:</span>
+              <span class="inspector-value" id="inspector-engine" style="font-size: 0.75rem;">LangGraph + Gemini</span>
+            </div>
+            <div class="inspector-row">
+              <span class="inspector-label">Latency:</span>
+              <span class="inspector-value" id="inspector-latency">—</span>
             </div>
           </div>
 
-          <div class="results-grid" id="doctor-results">
-            <!-- Populated dynamically -->
+          <!-- Live Diagnostic State Card -->
+          <div class="inspector-card" id="inspector-card-active" style="display: none;">
+            <div class="inspector-header">
+              <span><i data-lucide="alert-triangle" style="width: 14px; height: 14px; vertical-align: middle; margin-right: 4px; color: #f59e0b;"></i> Matched Condition</span>
+            </div>
+            <div style="font-size: 0.875rem; font-weight: 700; color: hsl(var(--foreground));" id="inspector-disease-name">—</div>
+            <div style="font-size: 0.75rem; color: hsl(var(--muted-foreground)); font-style: italic; margin-bottom: 0.5rem;" id="inspector-pathogen-name">—</div>
+            <div class="inspector-row">
+              <span class="inspector-label">Stage Phase:</span>
+              <span class="inspector-value" id="inspector-stage-name">—</span>
+            </div>
+            <div class="inspector-row">
+              <span class="inspector-label">Revenue Risk:</span>
+              <span class="inspector-value" id="inspector-rev-loss" style="color: #ef4444; font-weight: 600;">—</span>
+            </div>
+            <div class="inspector-row">
+              <span class="inspector-label">Spray Safety:</span>
+              <span class="inspector-value" id="inspector-spray-status" style="color: #10b981; font-weight: 600;">Optimal Window</span>
+            </div>
           </div>
+
+          <div class="inspector-card">
+            <div class="inspector-header">
+              <span><i data-lucide="compass" style="width: 14px; height: 14px; vertical-align: middle; margin-right: 4px;"></i> Agronomic Guidelines</span>
+            </div>
+            <p style="font-size: 0.8125rem; color: hsl(var(--muted-foreground)); line-height: 1.5; margin-bottom: 0.6rem;">
+              • <strong>Multi-criteria queries</strong>: Mention symptoms, PIN codes, seasons, or soil types (e.g. <code>rice blast in 141004 during Kharif</code>).
+            </p>
+            <p style="font-size: 0.8125rem; color: hsl(var(--muted-foreground)); line-height: 1.5;">
+              • <strong>Action Checklists</strong>: Interactive treatment checklists render automatically for confirmed disease diagnoses.
+            </p>
+          </div>
+        </aside>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         TAB 2: CROP DOCTOR CATALOG (SEARCHABLE ONTOLOGY ACROSS 164+ CROPS)
+         ========================================================================= -->
+    <section class="tab-content" id="tab-doctor">
+      <div class="filter-card">
+        <div class="filter-grid" style="grid-template-columns: 240px 180px 1fr auto;">
+          <div class="form-group">
+            <label class="form-label" for="doctor-crop-select">Target Crop Species:</label>
+            <select id="doctor-crop-select" class="form-select">
+              <option value="">Loading 164 crops...</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="doctor-category-filter">Category:</label>
+            <select id="doctor-category-filter" class="form-select">
+              <option value="">All Categories</option>
+              <option value="Field Crop">Field Crops</option>
+              <option value="Vegetable">Vegetables</option>
+              <option value="Fruit">Fruits</option>
+              <option value="Spices">Spices & Condiments</option>
+              <option value="Pulses">Pulses & Legumes</option>
+              <option value="Oilseeds">Oilseeds</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="doctor-symptom-input">Filter Symptom, Pathogen, or Disease:</label>
+            <input type="text" id="doctor-symptom-input" class="form-input" placeholder="e.g. blight, rust, rot, mildew, wilt, alternaria..." />
+          </div>
+
+          <button class="btn btn-primary" id="btn-search-doctor" style="height: 2.375rem;">
+            <i data-lucide="search" style="width: 15px; height: 15px;"></i>
+            <span>Query Disease Graph</span>
+          </button>
         </div>
-      </section>
+      </div>
 
-      <!-- TAB 3: Phenological Growth Stages -->
-      <section class="tab-content" id="stages-tab">
-        <div class="stages-container">
-          <div class="search-card">
-            <h3><i class="fa-solid fa-timeline"></i> Phenological Growth Timeline Explorer</h3>
-            <p>Inspect stage-by-stage agronomic milestones and duration spans.</p>
-            <div class="filter-row">
-              <div class="form-group">
-                <label for="stages-crop-select">Select Crop:</label>
-                <select id="stages-crop-select" class="form-select">
-                  <option value="Wheat">Wheat</option>
-                  <option value="Cotton">Cotton</option>
-                  <option value="Rice">Rice</option>
-                  <option value="Soybean">Soybean</option>
-                  <option value="Mustard">Mustard</option>
-                  <option value="Maize">Maize</option>
-                </select>
-              </div>
-              <button class="btn btn-primary" id="btn-search-stages">
-                <i class="fa-solid fa-chart-gantt"></i> Load Stages
-              </button>
-            </div>
-          </div>
+      <div class="disease-grid" id="doctor-results">
+        <!-- Populated dynamically -->
+      </div>
+    </section>
 
-          <div class="timeline-wrapper" id="stages-timeline">
-            <!-- Populated dynamically -->
-          </div>
+    <!-- =========================================================================
+         TAB 3: 6-FACTOR REGIONAL SUITABILITY WIZARD
+         ========================================================================= -->
+    <section class="tab-content" id="tab-recommendation">
+      <div class="filter-card">
+        <div style="font-weight: 700; font-size: 1rem; margin-bottom: 0.875rem; display: flex; align-items: center; gap: 0.5rem; color: hsl(var(--foreground));">
+          <i data-lucide="sliders" style="width: 18px; height: 18px; color: hsl(var(--primary));"></i>
+          <span>6-Factor Regional Suitability Engine (Zone 2.0, Season 2.0, Water 2.0, Soil 1.5, Budget 1.5, Rotation 1.0)</span>
         </div>
-      </section>
 
-      <!-- TAB 4: Regional Zone Suitability -->
-      <section class="tab-content" id="zones-tab">
-        <div class="zones-container">
-          <div class="search-card">
-            <h3><i class="fa-solid fa-map-location-dot"></i> Agro-Climatic Zone Suitability Engine</h3>
-            <p>Calculates multi-criteria suitability rankings for Indian PIN codes.</p>
-            <div class="filter-row">
-              <div class="form-group">
-                <label for="zone-pincode-input">Indian PIN Code (6 digits):</label>
-                <input type="text" id="zone-pincode-input" class="form-input" value="141004" maxlength="6" />
-              </div>
-              <div class="form-group">
-                <label for="zone-soil-select">Soil Class (Optional):</label>
-                <select id="zone-soil-select" class="form-select">
-                  <option value="">Any Soil</option>
-                  <option value="1">Class 1: Clayey Soil</option>
-                  <option value="2" selected>Class 2: Black Soil</option>
-                  <option value="3">Class 3: Loamy Soil</option>
-                  <option value="4">Class 4: Sandy Loam</option>
-                </select>
-              </div>
-              <button class="btn btn-primary" id="btn-search-zones">
-                <i class="fa-solid fa-ranking-star"></i> Rank Suited Crops
-              </button>
-            </div>
+        <div class="filter-grid" style="grid-template-columns: 140px 150px 180px 170px 150px 160px auto;">
+          <div class="form-group">
+            <label class="form-label" for="rec-pincode-input">PIN Code:</label>
+            <input type="text" id="rec-pincode-input" class="form-input" value="141004" maxlength="6" />
           </div>
 
-          <div class="zones-results" id="zone-rankings">
-            <!-- Populated dynamically -->
+          <div class="form-group">
+            <label class="form-label" for="rec-season-select">Crop Season:</label>
+            <select id="rec-season-select" class="form-select">
+              <option value="KHARIF" selected>Kharif (Monsoon)</option>
+              <option value="RABI">Rabi (Winter)</option>
+              <option value="ZAID">Zaid (Summer)</option>
+              <option value="LONGTERM">Annual / Longterm</option>
+            </select>
           </div>
+
+          <div class="form-group">
+            <label class="form-label" for="rec-soil-select">Soil Classification:</label>
+            <select id="rec-soil-select" class="form-select">
+              <option value="1">Class 1: Clayey Soil</option>
+              <option value="2" selected>Class 2: Black Soil</option>
+              <option value="3">Class 3: Loamy Soil</option>
+              <option value="4">Class 4: Sandy Loam</option>
+              <option value="5">Class 5: Sandy Soil</option>
+              <option value="6">Class 6: Red Soil</option>
+              <option value="7">Class 7: Alluvial Soil</option>
+              <option value="8">Class 8: Laterite Soil</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="rec-water-select">Irrigation Method:</label>
+            <select id="rec-water-select" class="form-select">
+              <option value="RAINFED">Rainfed (Dryland)</option>
+              <option value="SURFACE" selected>Surface / Canal Flood</option>
+              <option value="DRIP">Drip Irrigation</option>
+              <option value="SPRINKLER">Sprinkler Irrigation</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="rec-budget-select">Budget Capacity:</label>
+            <select id="rec-budget-select" class="form-select">
+              <option value="B1">B1: Low / Subsistence</option>
+              <option value="B2" selected>B2: Moderate Budget</option>
+              <option value="B3">B3: High / Commercial</option>
+              <option value="B4">B4: Enterprise Scale</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="rec-prev-crop">Previous Crop:</label>
+            <input type="text" id="rec-prev-crop" class="form-input" placeholder="e.g. Fallow, Wheat, Chickpea" value="Fallow" />
+          </div>
+
+          <button class="btn btn-primary" id="btn-calc-suitability" style="height: 2.375rem; align-self: flex-end;">
+            <i data-lucide="bar-chart-3" style="width: 15px; height: 15px;"></i>
+            <span>Calculate Suitability</span>
+          </button>
         </div>
-      </section>
 
-      <!-- TAB 5: System Topology -->
-      <section class="tab-content" id="system-tab">
-        <div class="system-container">
-          <div class="architecture-grid">
-            <div class="arch-card">
-              <div class="arch-icon"><i class="fa-brands fa-neos"></i></div>
-              <h4>Neo4j Knowledge Graph</h4>
-              <p class="arch-status"><span class="status-dot green"></span> Connected (AuraDB)</p>
-              <ul>
-                <li>164 Crop Nodes</li>
-                <li>1,966 Disease-Treatment Edges</li>
-                <li>19,486 Pincodes & AgroZones</li>
-              </ul>
-            </div>
-
-            <div class="arch-card">
-              <div class="arch-icon"><i class="fa-solid fa-diagram-project"></i></div>
-              <h4>LangGraph Reasoning Engine</h4>
-              <p class="arch-status"><span class="status-dot green"></span> Operational</p>
-              <ul>
-                <li>NLP Intent Extractor</li>
-                <li>Multi-hop Cypher Traversal</li>
-                <li>Conversational Synthesizer</li>
-              </ul>
-            </div>
-
-            <div class="arch-card">
-              <div class="arch-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
-              <h4>RabbitMQ / CloudAMQP</h4>
-              <p class="arch-status"><span class="status-dot green"></span> Broker Active</p>
-              <ul>
-                <li>Exchange: <code>agri.tasks.exchange</code></li>
-                <li>Queue: <code>agri.queue.diagnostics</code></li>
-                <li>Daemon Worker Consumer</li>
-              </ul>
-            </div>
-
-            <div class="arch-card">
-              <div class="arch-icon"><i class="fa-solid fa-gem"></i></div>
-              <h4>Strawberry GraphQL API</h4>
-              <p class="arch-status"><span class="status-dot green"></span> Port 8000 (FastAPI)</p>
-              <ul>
-                <li>Endpoint: <code>/graphql</code></li>
-                <li>UI Endpoint: <code>/agri-ui</code></li>
-                <li>Real-time Async Task Polling</li>
-              </ul>
-            </div>
-          </div>
+        <!-- Quick PIN buttons -->
+        <div style="margin-top: 0.75rem; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+          <span style="font-size: 0.75rem; color: hsl(var(--muted-foreground));">Quick Test PINs:</span>
+          <button type="button" class="btn btn-ghost btn-sm quick-pin-btn" data-pin="141004" style="font-size: 0.75rem; padding: 0.15rem 0.5rem;">141004 (Punjab - Trans-Gangetic)</button>
+          <button type="button" class="btn btn-ghost btn-sm quick-pin-btn" data-pin="587111" style="font-size: 0.75rem; padding: 0.15rem 0.5rem;">587111 (Bagalkote - Low Water)</button>
+          <button type="button" class="btn btn-ghost btn-sm quick-pin-btn" data-pin="522001" style="font-size: 0.75rem; padding: 0.15rem 0.5rem;">522001 (Guntur - Coastal Andhra)</button>
+          <button type="button" class="btn btn-ghost btn-sm quick-pin-btn" data-pin="440001" style="font-size: 0.75rem; padding: 0.15rem 0.5rem;">440001 (Nagpur - Black Soil)</button>
         </div>
-      </section>
-    </main>
-  </div>
+      </div>
 
-  <!-- App JavaScript -->
+      <!-- Suitability Results Container -->
+      <div id="suitability-results-container">
+        <!-- Rendered dynamically -->
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         TAB 4: PHENOLOGICAL GROWTH STAGES & CROP CALENDAR
+         ========================================================================= -->
+    <section class="tab-content" id="tab-phenology">
+      <div class="filter-card">
+        <div class="filter-grid" style="grid-template-columns: 280px auto 1fr;">
+          <div class="form-group">
+            <label class="form-label" for="phenology-crop-select">Select Crop Species:</label>
+            <select id="phenology-crop-select" class="form-select">
+              <option value="">Loading 89 crops with phenology...</option>
+            </select>
+          </div>
+
+          <button class="btn btn-primary" id="btn-load-phenology" style="height: 2.375rem; align-self: flex-end;">
+            <i data-lucide="calendar" style="width: 15px; height: 15px;"></i>
+            <span>Load Growth Schedule</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="phenology-container">
+        <!-- Rendered dynamically -->
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         TAB 5: DISTRICT GROUNDWATER & SEASON OUTLOOK
+         ========================================================================= -->
+    <section class="tab-content" id="tab-groundwater">
+      <div class="filter-card">
+        <div class="filter-grid" style="grid-template-columns: 220px auto 1fr;">
+          <div class="form-group">
+            <label class="form-label" for="gw-pincode-input">Indian PIN Code (6-digit):</label>
+            <input type="text" id="gw-pincode-input" class="form-input" value="587111" maxlength="6" />
+          </div>
+
+          <button class="btn btn-primary" id="btn-search-gw" style="height: 2.375rem; align-self: flex-end;">
+            <i data-lucide="droplet" style="width: 15px; height: 15px;"></i>
+            <span>Inspect Groundwater Reserve</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="groundwater-container">
+        <!-- Rendered dynamically -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- App Javascript -->
   <script src="/static/app.js"></script>
 </body>
 </html>

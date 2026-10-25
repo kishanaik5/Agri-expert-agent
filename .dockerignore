@@ -1,0 +1,31 @@
+.git
+.gitignore
+.env
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.venv/
+scratch/
+.system_generated/
+*.log
+
+# Exclude giant multi-gigabyte raw data dumps from docker build context
+data/**/*.json
+data/kissan_cv/cv_kb_version2.*
+data/kissan_cv/translated_analysis_report.*
+data/kissan_cv/cv_kb_translation.*
+data/kissan_agro_prod/farm_reports.*
+data/kissan_agro_prod/agro_forecasting.*
+data/task_results/
+
+# Docker volumes
+neo4j_data/
+neo4j_logs/
+neo4j_import/
+neo4j_plugins/
+rabbitmq_data/

@@ -1,23 +1,28 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
-from strawberry.fastapi import GraphQLRouter
-from src.api.schema import schema
-from src.graph.client import get_graph_client
-from src.queue.broker import init_broker_topology
-
+from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse
+from strawberry.fastapi import GraphQLRouter
+from pydantic import BaseModel
 import os
 import threading
+
+from src.api.schema import schema
+from src.api.rate_limiter import RateLimitMiddleware, get_rate_limiter
+from src.graph.client import get_graph_client
+from src.queue.broker import init_broker_topology
 
 # Initialize FastAPI App
 app = FastAPI(
     title="Agri-Knowledge Graph Copilot API",
     description="Intelligent Multimodal Agricultural Advisory system powered by GraphQL, Neo4j, RabbitMQ, and LangGraph.",
-    version="1.0.0"
+    version="2.0.0"
 )
 
-# CORS
+# 1. Rate Limiting Middleware
+app.add_middleware(RateLimitMiddleware)
+
+# 2. CORS
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -26,17 +31,40 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Static directory setup
+# Static & Frontend directories
 STATIC_DIR = os.path.join(os.path.dirname(__file__), "..", "static")
+FRONTEND_DIST = os.path.join(os.path.dirname(__file__), "..", "..", "frontend", "dist")
+
+if os.path.exists(FRONTEND_DIST):
+    app.mount("/assets", StaticFiles(directory=os.path.join(FRONTEND_DIST, "assets")), name="assets")
+
 if os.path.exists(STATIC_DIR):
     app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
+
+# Rate Limit Config Schema
+class RateLimitConfigRequest(BaseModel):
+    tier: str
+
+@app.get("/api/ratelimit/status")
+def get_ratelimit_status(request: Request):
+    client_ip = request.headers.get("x-forwarded-for") or (request.client.host if request.client else "127.0.0.1")
+    return get_rate_limiter().get_status(client_ip)
+
+@app.post("/api/ratelimit/configure")
+def configure_ratelimit(body: RateLimitConfigRequest, request: Request):
+    client_ip = request.headers.get("x-forwarded-for") or (request.client.host if request.client else "127.0.0.1")
+    ok = get_rate_limiter().set_client_tier(client_ip, body.tier)
+    if not ok:
+        return JSONResponse(status_code=400, content={"error": f"Invalid tier '{body.tier}'"})
+    return get_rate_limiter().get_status(client_ip)
 
 # Web UI routes
 @app.get("/agri-ui", response_class=FileResponse)
 @app.get("/ui", response_class=FileResponse)
 def serve_ui():
-    index_path = os.path.join(STATIC_DIR, "index.html")
-    return FileResponse(index_path)
+    if os.path.exists(os.path.join(FRONTEND_DIST, "index.html")):
+        return FileResponse(os.path.join(FRONTEND_DIST, "index.html"))
+    return FileResponse(os.path.join(STATIC_DIR, "index.html"))
 
 # GraphQL Router with GraphiQL Explorer
 graphql_app = GraphQLRouter(schema)
@@ -44,7 +72,11 @@ app.include_router(graphql_app, prefix="/graphql")
 
 @app.get("/")
 def root_endpoint():
-    # If browser requests HTML, serve Agri-UI
+    # If React frontend dist exists, serve it
+    react_index = os.path.join(FRONTEND_DIST, "index.html")
+    if os.path.exists(react_index):
+        return FileResponse(react_index)
+        
     index_path = os.path.join(STATIC_DIR, "index.html")
     if os.path.exists(index_path):
         return FileResponse(index_path)
@@ -60,6 +92,7 @@ def root_endpoint():
         "status": "healthy",
         "ui_endpoint": "/agri-ui",
         "graphql_endpoint": "/graphql",
+        "rate_limiting": "/api/ratelimit/status",
         "neo4j_connected": graph_ok
     }
 

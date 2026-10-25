@@ -59,8 +59,13 @@ def process_task_message(ch, method, properties, body):
                 "confidence_score": result.get("confidence_score", 0.0),
                 "diagnosis_summary": result.get("diagnosis_summary", ""),
                 "treatment_protocols": result.get("treatment_protocols", []),
+                "treatment_plan": result.get("treatment_plan", []),
+                "financial_impact": result.get("financial_impact"),
+                "spray_safety": result.get("spray_safety"),
+                "groundwater_alert": result.get("groundwater_alert"),
                 "preventive_actions": result.get("preventive_actions", []),
-                "actionable_advisory": result.get("actionable_advisory", "")
+                "actionable_advisory": result.get("actionable_advisory", ""),
+                "active_disease": result.get("active_disease")
             }
         }
         save_task_result(task_id, final_result)
